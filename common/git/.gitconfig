@@ -1,0 +1,9 @@
+[user]
+	email = 16941297+YankeeDeMierda@users.noreply.github.com
+	name = Tiago CB
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential

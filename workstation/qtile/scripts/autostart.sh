@@ -1,0 +1,1 @@
+/home/tiago/.dotfiles/config/qtile/autostart.sh
