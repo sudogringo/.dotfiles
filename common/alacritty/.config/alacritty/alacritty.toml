@@ -1,11 +1,3 @@
-#Alacritty Config for Yankee
-
-import = [
-#"~/.config/alacritty/nightfox.toml",
-"~/.config/alacritty/everforest_dark.toml"
-]
-
-live_config_reload = true
 
 [window]
 padding = { x = 1, y = 1 }
@@ -17,4 +9,14 @@ title = "Alacritty Terminal"
 [font]
 normal = { family = "Hasklug Nerd Font", style = "Regular" }
 size = 12
+
+[general]
+
+live_config_reload = true
+#Alacritty Config for Yankee
+
+import = [
+#"~/.config/alacritty/nightfox.toml",
+"~/.config/alacritty/everforest_dark.toml"
+]
 
