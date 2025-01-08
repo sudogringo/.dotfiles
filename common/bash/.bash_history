@@ -1,136 +1,36 @@
-rm .bash_history
-cd ..
-ls
-stow bash
-homw
-home
-cd .dotfiles/
-ls
-cd dotfiles/
-ls -la
-cd common/
-ls
-cp bash/ bash_copy/
-cp -r bash/ bash_copy/
-ls
-cd ..
-ls
-ls -la
-rm .bash_history .bash_logout .bash_profile .bashrc
-ls
-ls -la
-home
-mv .dotfiles/dotfiles/* .dotfiles/
-cd .dotfiles/
-ls
-rm -rf dotfiles/
-ls common/
-cd common/
-ls
-stow --target=/home/tiago bash
-stow --target=/home/tiago --adopt bash
-ls -la
-rm .gitconfig 
-stow --target=/home/tiago git
-rm .vimrc 
+rm .vimrc .bashrc .bash_* .gitconfig 
+stow --target=/home/tiago bash/ git/ vim/
+stow --adopt --target=/home/tiago bash/ git/ vim/
 rm .xinitrc 
-stow --target=/home/tiago vim/ xinit/ 
-cd Wallpapers/
-ls
-;;
-..
-ls
-cd .config/
-ls
-rm -rf picom/
-stow --target=/home/tiago picom
-ls
-ls picom
-rm -rf alacritty/
-stow --target=/home/tiago alacritty/
-ls
+stow xinit/
 cd ..
-ls
-cd thinkpad/
-ls
-mkdir qtile
-cd qtile/
-ls
-mkdir .config
-mkdir .config/qtile
-ls
-cd .config/qtile/
-ls
-cd qtile
-ls
-pwd
-cp /home/tiago/.config/qtile/* .
-ls
-cd ..
-rm -rf qtile
-...
-..
-ls
-stow --target=/home/tiago qtile/
-ls
-cd qtile
 ls
 ls -la
-cd ..
-ls -la
-home
-loadbash
-nvim config.ini 
-home
-ls
-ls -la
-source .bashrc 
-l
-loadbash
-nvim .bashrc 
-syncthing
-alacritty migrate
-ls
-cd .config/
-ls
-cd .dotfiles/
-ls
-cd thinkpad/
-ls
-stow --target=home/tiago polybar/
-stow --target=/home/tiago polybar/
-rm -rf polybar/
-cd ..
+rm .xinitrc 
 ls
 cd common/
-cd picom/
 ls
-cd .config/picom/
-ls
-nvim picom.conf 
-cd ~/.dotfiles/
-home
-ls
-rm -rf tempor/
-ls
-nvim README.md 
-git add .
+stow --adopt --target=/home/tiago xinit/
+ls -la
+syncthing
+man stow
+shtdwn
+yay -S fzf
 ls
 ls -la
-fzf .git
-fzf /.git
-fzf 
-cd ..
-ls
-mkdir tempor
-cd tempor/
- git clone https://github.com/YankeeDeMierda/.dotfiles
-git clone https://github.com/YankeeDeMierda/.dotfiles
-ls
+cat .bash
+cat .bashrc
+cat /usr/share/fzf/key-bindings.
+cat /usr/share/fzf/key-bindings.bash 
+cat .xinitrc 
+wal
 cd .dotfiles/
 ls
-ls -la
-rm -rf common/ README.md thinkpad/ workstation/
+cd common/
 ls
+cd xinit/
+ls
+la
 ls -la
-cp ~/.dotfiles/* .
+nvim .xinitrc 
+cd ..

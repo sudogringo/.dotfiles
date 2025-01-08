@@ -9,12 +9,6 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 
 if [ -f $sysresources ]; then
 
-
-
-
-
-
-
     xrdb -merge $sysresources
 
 fi
@@ -24,12 +18,6 @@ if [ -f $sysmodmap ]; then
 fi
 
 if [ -f "$userresources" ]; then
-
-
-
-
-
-
 
     xrdb -merge "$userresources"
 
@@ -56,6 +44,5 @@ fi
 
 dunst &
 nitrogen --restore &
-wal -R &
 picom --config ~/.config/picom/picom.conf &
 exec qtile start
