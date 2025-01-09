@@ -6,12 +6,12 @@ Maintained in github, managing symlinks with GNU Stow
 ```
 .dotfiles/
     L common/
-        L program@root/
-        |   L programFile
-        L program/
-            L .config/
-                L program/
-                    L programFiles
+    |   L program@root/
+    |   |   L programFile
+    |   L program/
+    |       L .config/
+    |           L program/
+    |               L programFiles
     L thinkpad/
     L workstation/
 ```
@@ -28,7 +28,7 @@ yay -S stow
 ```
 git clone https://github.com/YankeeDeMierda/.dotfiles
 cd .dotfiles/common/
-stow --target=home/$USER/ */ # Replace $USER with name of user
+stow --target=/home/$USER/ */ # Replace $USER with name of user
 ```
 
 stow files of specific machine by going to machine directory and stowing the files
@@ -36,9 +36,7 @@ stow files of specific machine by going to machine directory and stowing the fil
 ## TODO
 1. write script to stow and restow automatically, depending on hostname
 2. modify rofi
-3. (Thinkpad) Migrate qtile to workstation form
-4. (Thinkpad) Change polybar to workstation form
-5. Move Wallpapers/ to different hosting site
-6. Fix qtile music bar. Prioritize last played item for interaccion, but spotify for display
+3. Move Wallpapers/ to different hosting site
+4. Fix qtile music bar. Prioritize last played item for interaccion, but spotify for display
 
 
