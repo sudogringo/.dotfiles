@@ -67,6 +67,7 @@ alias py='python3'
 
 #Yay
 alias yayupdate="yay -Syu --noconfirm"
+alias pkglist='pacman -Qs --color=always | less -R'
 
 #Adding flags
 alias cp="cp -i"	#Confirm before overwrite
@@ -84,5 +85,10 @@ alias loadbash='source ~/.bashrc'
 # Rofi
 alias emoji='rofi -modi emoji -show emoji -emoji-mode copy'
 alias wifi='/home/tiago/external/rofi-wifi-menu/rofi-wifi-menu.sh'
+
+# Networking
+ alias ipv4="ip addr show | grep 'inet ' | grep -v '127.0.0.1' | cut -d' ' -f6 | cut -d/ -f1"
+alias ipv6="ip addr show | grep 'inet6 ' | cut -d ' ' -f6 | sed -n '2p'" 
+
 # Created by `pipx` on 2024-12-09 22:52:18
 export PATH="$PATH:/home/tiago/.local/bin"
