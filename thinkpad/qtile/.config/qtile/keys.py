@@ -85,6 +85,8 @@ keys = [
     Key([], "XF86AudioNext", lazy.spawn("playerctl next"), desc="Skip to next"),
     Key([], "XF86AudioPrev", lazy.spawn("playerctl previous"), desc="Skip to previous"),
 
+    # Display controls
+    Key([mod], "XF86WLAN", lazy.spawn("home/tiago/external/rofi-wifi-menu/rofi-wifi-menu.sh'"), desc="Rofi wifi menu",),
 ]
 
 # Drag floating layouts.

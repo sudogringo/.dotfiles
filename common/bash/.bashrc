@@ -36,6 +36,8 @@ alias home='cd ~'
 alias root='cd /'
 alias ..='cd ..'
 alias ...='cd ..; cd ..'
+alias ....='cd ..; cd ..; cd ..'
+alias .....='cd ..; cd ..; cd ..; cd ..'
 alias l.="ls -a | grep '^\.'"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
@@ -75,12 +77,12 @@ alias shtdwn="sudo shutdown now"
 alias rbt="sudo reboot"
 
 # Shortcuts to vimrc and bashrc
-alias vimrc='nvim ~/.dotfiles/vim/.vimrc'
-alias bashrc='nvim ~/.dotfiles/bash/.bashrc'
+alias vimrc='nvim ~/.dotfiles/common/vim/.vimrc'
+alias bashrc='nvim ~/.dotfiles/common/bash/.bashrc'
 alias loadbash='source ~/.bashrc'
 
 # Rofi
 alias emoji='rofi -modi emoji -show emoji -emoji-mode copy'
-
+alias wifi='/home/tiago/external/rofi-wifi-menu/rofi-wifi-menu.sh'
 # Created by `pipx` on 2024-12-09 22:52:18
 export PATH="$PATH:/home/tiago/.local/bin"
