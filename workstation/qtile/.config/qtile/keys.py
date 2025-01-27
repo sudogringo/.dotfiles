@@ -81,9 +81,9 @@ keys = [
     Key([], "Print", lazy.spawn("ksnip -r"), desc="Ksnip (screenshot) rectangle"),
 
     # Media controls
-    Key([], "XF86AudioPlay", lazy.spawn("playerctl play-pause"), desc="Play/Pause player"),
-    Key([], "XF86AudioNext", lazy.spawn("playerctl next"), desc="Skip to next"),
-    Key([], "XF86AudioPrev", lazy.spawn("playerctl previous"), desc="Skip to previous"),
+    Key([], "XF86AudioPlay", lazy.spawn("playerctl --player=ncspot,%any play-pause"), desc="Play/Pause player"),
+    Key([], "XF86AudioNext", lazy.spawn("playerctl --player=ncspot,%any next"), desc="Skip to next"),
+    Key([], "XF86AudioPrev", lazy.spawn("playerctl --player=ncspot,%any previous"), desc="Skip to previous"),
 
 ]
 

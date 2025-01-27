@@ -58,4 +58,5 @@ dunst &
 nitrogen --restore &
 wal -R &
 picom --config ~/.config/picom/picom.conf &
+playerctld daemon &
 exec qtile start
