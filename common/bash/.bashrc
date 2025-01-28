@@ -92,3 +92,19 @@ alias ipv6="ip addr show | grep 'inet6 ' | cut -d ' ' -f6 | sed -n '2p'"
 
 # Created by `pipx` on 2024-12-09 22:52:18
 export PATH="$PATH:/home/tiago/.local/bin"
+
+# Script for Checking Discord and Steam
+# Check if the current day is Thursday, Friday, or Saturday
+if [ "$(date +%u)" -eq 4 ] || [ "$(date +%u)" -eq 5 ] || [ "$(date +%u)" -eq 6 ]; then
+    # Check if the flag file does not exist
+    if [ ! -f ~/.firstRun ]; then
+        # Run your script
+	~/.dotfiles/common/.scripts/weekendFun.sh
+
+        # Create the flag file to indicate the script has run
+        touch ~/.firstRun
+    fi
+else
+    # Remove the flag file if it's not Thursday or Friday
+    rm -f ~/.firstRun
+fi
