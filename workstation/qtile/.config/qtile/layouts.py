@@ -1,5 +1,6 @@
 from libqtile import layout
 from libqtile.config import Match
+from libqtile.layout import columns
 from colors import colours
 
 layout_theme = {
@@ -10,13 +11,13 @@ layout_theme = {
         }
 
 layouts = [
-    #layout.Columns(border_focus_stack=["#d75f5f", "#8f3d3d"], border_width=4),
-    layout.Columns(**layout_theme),
+    # layout.Columns(border_focus_stack=["#d75f5f", "#8f3d3d"], border_width=4),
+    # layout.Columns(**layout_theme),
     layout.Max(**layout_theme),
     # Try more layouts by unleashing below layouts.
     layout.Stack(num_stacks=2, **layout_theme),
-    # layout.Bsp(),
-    layout.Matrix(**layout_theme),
+    layout.Bsp(),
+    layout.Matrix(**layout_theme, columns=3),
     layout.MonadTall(**layout_theme),
     layout.MonadWide(**layout_theme),
     # layout.RatioTile(),
