@@ -68,10 +68,10 @@ keys = [
     Key([], "XF86MonBrightnessDown", lazy.spawn("xbacklight -10"), desc="Lower Brightness"),
     
     # Volume Controls
-    Key([], "XF86AudioMicMute", lazy.spawn("pactl set-source-mute @DEFAULT_SOURCE@ toggle"), desc="Mute audio"),
-    Key([], "XF86AudioMute", lazy.spawn("pactl set-sink-mute @DEFAULT_SINK@ toggle"), desc="Mute audio"),
-    Key([], "XF86AudioLowerVolume", lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ -10%"), desc="Lower volume by 10%",),
-    Key([], "XF86AudioRaiseVolume", lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ +10%"), desc="Raise volume by 10%",),
+    Key([], "XF86AudioMicMute", lazy.spawn("wpctl set-mute @DEFAULT_SOURCE@ toggle"), desc="Mute audio"),
+    Key([], "XF86AudioMute", lazy.spawn("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"), desc="Mute audio"),
+    Key([], "XF86AudioLowerVolume", lazy.spawn("wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 10%-"), desc="Lower volume by 10%",),
+    Key([], "XF86AudioRaiseVolume", lazy.spawn("wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 10%+"), desc="Raise volume by 10%",),
 
     # Display controls
     Key([mod], "XF86Display", lazy.spawn("arandr"), desc="Start Arandr for GUI display control.",),

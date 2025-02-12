@@ -20,7 +20,7 @@ groups.extend([
         DropDown("term", "alacritty", **dropdown_config),
         DropDown("Spotify", "alacritty -e ncspot", **dropdown_config),
         DropDown("ranger", "alacritty -t Ranger -e ranger", **dropdown_config),
-        DropDown("Volume", "pavucontrol", **dropdown_config),
+        DropDown("Volume", "pwvucontrol", **dropdown_config),
         ]),
 ])
 
