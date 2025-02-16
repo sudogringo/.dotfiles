@@ -146,15 +146,10 @@ screens = [
                      )
                  ],
             ),
-            widget.PulseVolume(
+            widget.Wlan(
                 **widget_defaults,
-                emoji_list=['󰝟', '󰕿', '󰖀', '󰕾'],
-                emoji=False,
-                limit_max_volume=True,
-                mute_format='󰝟 Muted',
-                unmute_format='󰕾 {volume:>3.0f}%',
-                fmt = '{}',
-                width=widget_defaults["fontsize"] * 5,
+                interface='wlp4s0',
+                format='{essid} {percent:2.0%}',
                 decorations=[
                      BorderDecoration(
                          colour = colours[10],
@@ -162,6 +157,22 @@ screens = [
                      )
                  ],
             ),
+            # widget.PulseVolume(
+            #     **widget_defaults,
+            #     emoji_list=['󰝟', '󰕿', '󰖀', '󰕾'],
+            #     emoji=False,
+            #     limit_max_volume=True,
+            #     mute_format='󰝟 Muted',
+            #     unmute_format='󰕾 {volume:>3.0f}%',
+            #     fmt = '{}',
+            #     width=widget_defaults["fontsize"] * 5,
+            #     decorations=[
+            #          BorderDecoration(
+            #              colour = colours[10],
+            #              border_width = [0, 0, underline, 0],
+            #          )
+            #      ],
+            # ),
             widget.KeyboardLayout(
                 **widget_defaults,
                 configured_keyboards=['es', 'us'],

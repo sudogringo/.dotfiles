@@ -16,14 +16,14 @@ layouts = [
     # Try more layouts by unleashing below layouts.
     layout.Stack(num_stacks=2, **layout_theme),
     # layout.Bsp(),
-    layout.Matrix(**layout_theme),
-    layout.MonadTall(**layout_theme),
-    layout.MonadWide(**layout_theme),
+    # layout.Matrix(**layout_theme),
+    # layout.MonadTall(**layout_theme),
+    # layout.MonadWide(**layout_theme),
     # layout.RatioTile(),
-    layout.Tile(),
-    # layout.TreeTab(),
+    # layout.Tile(),
+    # # layout.TreeTab(),
     # layout.VerticalTile(),
-    layout.Zoomy(**layout_theme),
+    # layout.Zoomy(**layout_theme),
 ]
 
 dgroups_key_binder = None
