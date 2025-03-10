@@ -3,3 +3,4 @@ workstation/qtile/.config/qtile/__pycache__/
 common/bash/.bash_history
 common/ncspot/.config/ncspot/userstate.cbor
 workstation/qtile/.config/qtile/__pycache__
+common/ncspot/.config/ncspot/userstate.cbor
