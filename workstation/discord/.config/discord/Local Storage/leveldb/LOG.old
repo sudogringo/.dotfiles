@@ -1,0 +1,12 @@
+2025/02/28-21:33:15.803 716 Reusing MANIFEST /home/tiago/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/02/28-21:33:15.817 716 Recovering log #10
+2025/02/28-21:33:15.818 716 Reusing old log /home/tiago/.config/discord/Local Storage/leveldb/000010.log 
+2025/02/28-21:36:35.194 717 Level-0 table #14: started
+2025/02/28-21:36:35.208 717 Level-0 table #14: 998809 bytes OK
+2025/02/28-21:36:35.210 717 Delete type=0 #10
+2025/02/28-22:34:16.845 717 Level-0 table #16: started
+2025/02/28-22:34:16.847 717 Level-0 table #16: 10388 bytes OK
+2025/02/28-22:34:16.849 717 Delete type=0 #13
+2025/02/28-23:40:16.845 717 Level-0 table #18: started
+2025/02/28-23:40:16.848 717 Level-0 table #18: 14513 bytes OK
+2025/02/28-23:40:16.850 717 Delete type=0 #15

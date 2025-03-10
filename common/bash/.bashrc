@@ -52,15 +52,15 @@ cs_func() {
 alias new="/usr/bin/ls -lth | head -15"
 
 #Journals
-alias jornalSys='journalctl -f --system' #follow system journal
+alias journalSys='journalctl -f --system' #follow system journal
 
-alias jornalUser='journalctl -f --user' #follow user journal
+alias journalUser='journalctl -f --user' #follow user journal
 
-alias jornalBoot='journalctl -r -p 7 -b 0 --system' #this boot system problems
+alias journalBoot='journalctl -r -p 7 -b 0 --system' #this boot system problems
 
-alias jornalBootPrior='journalctl -r -p 7 -b -1 --system' #this boot system problems
+alias journalBootPrior='journalctl -r -p 7 -b -1 --system' #this boot system problems
 
-alias jornalBootUser='journalctl -r -p 7 -b 0 --user' #this boot my problems but just as a user on this computer. this wont list my deep-seated, life-crippling, psychological problems yet.
+alias journalBootUser='journalctl -r -p 7 -b 0 --user' #this boot my problems but just as a user on this computer. this wont list my deep-seated, life-crippling, psychological problems yet.
 
 #Python
 alias py='python3'

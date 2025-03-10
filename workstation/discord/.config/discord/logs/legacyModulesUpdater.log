@@ -1,0 +1,950 @@
+2/26/2025, 12:40:57 PM GMT-3 [Modules] Modules initializing
+2/26/2025, 12:40:57 PM GMT-3 [Modules] Distribution: remote
+2/26/2025, 12:40:57 PM GMT-3 [Modules] Host updates: enabled
+2/26/2025, 12:40:57 PM GMT-3 [Modules] Module updates: enabled
+2/26/2025, 12:40:57 PM GMT-3 [Modules] Module install path: /home/tiago/.config/discord/0.0.85/modules
+2/26/2025, 12:40:57 PM GMT-3 [Modules] Module installed file path: /home/tiago/.config/discord/0.0.85/modules/installed.json
+2/26/2025, 12:40:57 PM GMT-3 [Modules] Module download path: /home/tiago/.config/discord/0.0.85/modules/pending
+2/26/2025, 12:40:58 PM GMT-3 [Modules] Bootstrapping...
+2/26/2025, 12:40:58 PM GMT-3 [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2/26/2025, 12:40:58 PM GMT-3 [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2/26/2025, 12:40:58 PM GMT-3 [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2/26/2025, 12:40:58 PM GMT-3 [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2/26/2025, 12:40:58 PM GMT-3 [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2/26/2025, 12:40:58 PM GMT-3 [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2/26/2025, 12:40:58 PM GMT-3 [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2/26/2025, 12:40:58 PM GMT-3 [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2/26/2025, 12:40:58 PM GMT-3 [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2/26/2025, 12:40:58 PM GMT-3 [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2/26/2025, 12:40:58 PM GMT-3 [Modules] Installing discord_zstd@0 from /opt/discord/resources/bootstrap/discord_zstd.zip
+2/26/2025, 12:40:58 PM GMT-3 [Modules] Failed installing discord_zstd@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_zstd.zip'
+2/26/2025, 12:40:58 PM GMT-3 [Modules] Finished module installations. [success: 0] [failure: 6]
+2/26/2025, 12:40:58 PM GMT-3 [Modules] Checking for host updates.
+2/26/2025, 12:40:58 PM GMT-3 [Modules] Host update is available. Manual update required!
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Modules initializing
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Distribution: remote
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Host updates: enabled
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Module updates: enabled
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Module install path: /home/tiago/.config/discord/0.0.87/modules
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Module installed file path: /home/tiago/.config/discord/0.0.87/modules/installed.json
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Module download path: /home/tiago/.config/discord/0.0.87/modules/pending
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Bootstrapping...
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Installing discord_zstd@0 from /opt/discord/resources/bootstrap/discord_zstd.zip
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Failed installing discord_zstd@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_zstd.zip'
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Finished module installations. [success: 0] [failure: 6]
+2/27/2025, 11:37:45 AM GMT-3 [Modules] Checking for host updates.
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Host is up to date.
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Module update available: discord_utils@1 [installed: 0]
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Module update available: discord_voice@1 [installed: 0]
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Module update available: discord_zstd@1 [installed: 0]
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 1%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 2%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 3%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 4%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 5%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 6%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 7%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 8%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 9%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 10%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 11%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 12%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 13%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 14%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 15%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 16%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 17%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 18%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 19%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 20%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 21%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 22%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 23%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 24%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 25%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 26%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 27%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 28%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 29%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 30%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 31%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 32%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 33%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 34%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 35%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 36%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 37%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 38%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 39%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 40%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 41%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 42%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 43%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 44%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 45%
+2/27/2025, 11:37:46 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 46%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 47%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 48%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 49%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 50%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 51%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 52%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 53%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 54%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 55%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 56%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 57%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 58%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 59%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 60%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 61%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 62%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 63%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 64%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 65%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 66%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 67%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 68%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 69%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 70%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 71%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 72%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 73%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 74%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 75%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 76%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 77%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 78%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 79%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 80%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 81%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 82%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 83%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 84%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 85%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 86%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 87%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 88%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 89%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 90%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 91%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 92%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 93%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 94%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 95%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 96%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 97%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 98%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 99%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_desktop_core@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip: 100%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 1%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 2%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 3%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 4%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 5%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 7%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 8%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 9%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 10%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 11%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 12%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 13%
+2/27/2025, 11:37:47 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 14%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 15%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 16%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 17%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 18%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 19%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 20%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 21%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 22%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 23%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 24%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 25%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 26%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 27%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 28%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 29%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 30%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 31%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 32%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 33%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 34%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 35%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 36%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 37%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 38%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 39%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 40%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 41%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 42%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 43%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 44%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 45%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 46%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 47%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 48%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 49%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 50%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 51%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 52%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 53%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 54%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 55%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 56%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 57%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 58%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 59%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 60%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 61%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 62%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 63%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 64%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 65%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 66%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 67%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 68%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 69%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 70%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 71%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 72%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 73%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 74%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 75%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 76%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 77%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 78%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 79%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 80%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 81%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 82%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 83%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 84%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 85%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 86%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 87%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 88%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 89%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 90%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 91%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 92%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 93%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 94%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 95%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 96%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 97%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 98%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 99%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_erlpack@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip: 100%
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2/27/2025, 11:37:48 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 1%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 2%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 3%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 4%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 5%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 6%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 7%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 8%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 9%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 10%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 11%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 12%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 13%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 14%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 15%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 16%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 17%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 18%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 19%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 20%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 21%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 22%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 23%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 24%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 25%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 26%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 27%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 28%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 29%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 30%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 31%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 32%
+2/27/2025, 11:37:49 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 33%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 34%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 35%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 36%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 37%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 38%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 39%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 40%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 41%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 42%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 43%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 44%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 45%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 46%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 47%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 48%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 49%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 50%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 51%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 52%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 53%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 54%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 55%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 56%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 57%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 58%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 59%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 60%
+2/27/2025, 11:37:50 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 61%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 62%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 63%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 64%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 65%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 66%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 67%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 68%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 69%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 70%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 71%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 72%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 73%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 74%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 75%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 76%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 77%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 78%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 79%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 80%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 81%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 82%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 83%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 84%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 85%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 86%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 87%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 88%
+2/27/2025, 11:37:51 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 89%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 90%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 91%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 92%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 93%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 94%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 95%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 96%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 97%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 98%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 99%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_spellcheck@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip: 100%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 1%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 2%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 3%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 4%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 5%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 6%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 7%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 8%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 9%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 10%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 11%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 12%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 13%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 14%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 15%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 16%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 17%
+2/27/2025, 11:37:52 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 18%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 19%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 20%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 21%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 22%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 23%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 24%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 25%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 26%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 27%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 28%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 29%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 30%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 31%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 32%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 33%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 34%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 35%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 36%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 37%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 38%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 39%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 40%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 41%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 42%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 43%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 44%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 45%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 46%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 47%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 48%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 49%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 50%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 51%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 52%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 53%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 54%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 55%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 56%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 57%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 58%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 59%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 60%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 61%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 62%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 63%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 64%
+2/27/2025, 11:37:53 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 65%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 66%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 67%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 68%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 69%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 70%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 71%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 72%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 73%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 74%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 75%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 76%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 77%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 78%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 79%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 80%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 81%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 82%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 83%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 84%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 85%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 86%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 87%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 88%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 89%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 90%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 91%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 92%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 93%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 94%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 95%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 96%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 97%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 98%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 99%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip: 100%
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2/27/2025, 11:37:54 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip
+2/27/2025, 11:37:55 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 1%
+2/27/2025, 11:37:55 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 2%
+2/27/2025, 11:37:55 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 3%
+2/27/2025, 11:37:55 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 4%
+2/27/2025, 11:37:55 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 5%
+2/27/2025, 11:37:55 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 6%
+2/27/2025, 11:37:55 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 7%
+2/27/2025, 11:37:55 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 8%
+2/27/2025, 11:37:55 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 9%
+2/27/2025, 11:37:56 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 10%
+2/27/2025, 11:37:56 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 11%
+2/27/2025, 11:37:56 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 12%
+2/27/2025, 11:37:56 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 13%
+2/27/2025, 11:37:56 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 14%
+2/27/2025, 11:37:56 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 15%
+2/27/2025, 11:37:56 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 16%
+2/27/2025, 11:37:56 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 17%
+2/27/2025, 11:37:57 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 18%
+2/27/2025, 11:37:57 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 19%
+2/27/2025, 11:37:57 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 20%
+2/27/2025, 11:37:57 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 21%
+2/27/2025, 11:37:57 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 22%
+2/27/2025, 11:37:57 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 23%
+2/27/2025, 11:37:57 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 24%
+2/27/2025, 11:37:57 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 25%
+2/27/2025, 11:37:57 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 26%
+2/27/2025, 11:37:57 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 27%
+2/27/2025, 11:37:58 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 28%
+2/27/2025, 11:37:58 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 29%
+2/27/2025, 11:37:58 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 30%
+2/27/2025, 11:37:58 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 31%
+2/27/2025, 11:37:58 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 32%
+2/27/2025, 11:37:58 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 33%
+2/27/2025, 11:37:58 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 34%
+2/27/2025, 11:37:58 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 35%
+2/27/2025, 11:37:58 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 36%
+2/27/2025, 11:37:58 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 37%
+2/27/2025, 11:37:59 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 38%
+2/27/2025, 11:37:59 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 39%
+2/27/2025, 11:37:59 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 40%
+2/27/2025, 11:37:59 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 41%
+2/27/2025, 11:37:59 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 42%
+2/27/2025, 11:37:59 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 43%
+2/27/2025, 11:37:59 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 44%
+2/27/2025, 11:37:59 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 45%
+2/27/2025, 11:38:00 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 46%
+2/27/2025, 11:38:00 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 47%
+2/27/2025, 11:38:00 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 48%
+2/27/2025, 11:38:00 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 49%
+2/27/2025, 11:38:00 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 50%
+2/27/2025, 11:38:00 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 51%
+2/27/2025, 11:38:00 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 52%
+2/27/2025, 11:38:00 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 53%
+2/27/2025, 11:38:00 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 54%
+2/27/2025, 11:38:01 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 55%
+2/27/2025, 11:38:01 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 56%
+2/27/2025, 11:38:01 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 57%
+2/27/2025, 11:38:01 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 58%
+2/27/2025, 11:38:01 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 59%
+2/27/2025, 11:38:01 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 60%
+2/27/2025, 11:38:01 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 61%
+2/27/2025, 11:38:01 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 62%
+2/27/2025, 11:38:02 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 63%
+2/27/2025, 11:38:02 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 64%
+2/27/2025, 11:38:02 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 65%
+2/27/2025, 11:38:02 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 66%
+2/27/2025, 11:38:02 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 67%
+2/27/2025, 11:38:03 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 68%
+2/27/2025, 11:38:03 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 69%
+2/27/2025, 11:38:03 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 70%
+2/27/2025, 11:38:03 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 71%
+2/27/2025, 11:38:03 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 72%
+2/27/2025, 11:38:04 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 73%
+2/27/2025, 11:38:04 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 74%
+2/27/2025, 11:38:04 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 75%
+2/27/2025, 11:38:04 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 76%
+2/27/2025, 11:38:05 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 77%
+2/27/2025, 11:38:05 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 78%
+2/27/2025, 11:38:05 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 79%
+2/27/2025, 11:38:05 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 80%
+2/27/2025, 11:38:06 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 81%
+2/27/2025, 11:38:06 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 82%
+2/27/2025, 11:38:06 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 83%
+2/27/2025, 11:38:06 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 84%
+2/27/2025, 11:38:07 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 85%
+2/27/2025, 11:38:07 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 86%
+2/27/2025, 11:38:07 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 87%
+2/27/2025, 11:38:08 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 88%
+2/27/2025, 11:38:08 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 89%
+2/27/2025, 11:38:08 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 90%
+2/27/2025, 11:38:08 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 91%
+2/27/2025, 11:38:08 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 92%
+2/27/2025, 11:38:08 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 93%
+2/27/2025, 11:38:09 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 94%
+2/27/2025, 11:38:09 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 95%
+2/27/2025, 11:38:09 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 96%
+2/27/2025, 11:38:09 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 97%
+2/27/2025, 11:38:09 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 98%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 99%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_voice@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip: 100%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Fetching discord_zstd@1 from https://discord.com/api/modules/stable/discord_zstd/1
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 8%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 9%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 10%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 11%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 12%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 14%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 15%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 18%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 19%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 21%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 24%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 25%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 26%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 27%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 28%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 29%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 30%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 35%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 36%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 37%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 38%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 40%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 43%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 44%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 45%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 46%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 47%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 49%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 50%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 51%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 52%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 53%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 54%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 56%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 57%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 58%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 63%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 69%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 70%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 71%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 72%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 73%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 74%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 78%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 81%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 82%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 85%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 87%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 88%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 92%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 93%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 95%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 96%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 97%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 98%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 99%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Streaming discord_zstd@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip: 100%
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Finished module downloads. [success: 6] [failure: 0]
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Installing updates...
+2/27/2025, 11:38:10 AM GMT-3 [Modules] Installing discord_desktop_core@1 from /home/tiago/.config/discord/0.0.87/modules/pending/discord_desktop_core-1.zip
+2/27/2025, 11:38:11 AM GMT-3 [Modules] Installing discord_erlpack@1 from /home/tiago/.config/discord/0.0.87/modules/pending/discord_erlpack-1.zip
+2/27/2025, 11:38:11 AM GMT-3 [Modules] Installing discord_spellcheck@1 from /home/tiago/.config/discord/0.0.87/modules/pending/discord_spellcheck-1.zip
+2/27/2025, 11:38:12 AM GMT-3 [Modules] Installing discord_utils@1 from /home/tiago/.config/discord/0.0.87/modules/pending/discord_utils-1.zip
+2/27/2025, 11:38:12 AM GMT-3 [Modules] Installing discord_voice@1 from /home/tiago/.config/discord/0.0.87/modules/pending/discord_voice-1.zip
+2/27/2025, 11:38:13 AM GMT-3 [Modules] Installing discord_zstd@1 from /home/tiago/.config/discord/0.0.87/modules/pending/discord_zstd-1.zip
+2/27/2025, 11:38:13 AM GMT-3 [Modules] Finished module installations. [success: 6] [failure: 0]
+2/27/2025, 11:38:13 AM GMT-3 [Modules] Checking for host updates.
+2/27/2025, 11:38:13 AM GMT-3 [Modules] Host is up to date.
+2/27/2025, 11:38:13 AM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2/27/2025, 11:38:13 AM GMT-3 [Modules] No module updates available.
+2/27/2025, 11:38:19 AM GMT-3 [Modules] Starting to install discord_krisp...
+2/27/2025, 11:38:19 AM GMT-3 [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2/27/2025, 11:38:19 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip
+2/27/2025, 11:38:20 AM GMT-3 [Modules] Starting to install discord_game_utils...
+2/27/2025, 11:38:20 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 1%
+2/27/2025, 11:38:20 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 2%
+2/27/2025, 11:38:21 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 3%
+2/27/2025, 11:38:21 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 4%
+2/27/2025, 11:38:21 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 5%
+2/27/2025, 11:38:21 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 6%
+2/27/2025, 11:38:21 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 7%
+2/27/2025, 11:38:21 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 8%
+2/27/2025, 11:38:21 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 9%
+2/27/2025, 11:38:22 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 10%
+2/27/2025, 11:38:22 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 11%
+2/27/2025, 11:38:22 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 12%
+2/27/2025, 11:38:22 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 13%
+2/27/2025, 11:38:23 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 14%
+2/27/2025, 11:38:23 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 15%
+2/27/2025, 11:38:23 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 16%
+2/27/2025, 11:38:23 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 17%
+2/27/2025, 11:38:24 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 18%
+2/27/2025, 11:38:24 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 19%
+2/27/2025, 11:38:24 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 20%
+2/27/2025, 11:38:24 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 21%
+2/27/2025, 11:38:25 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 22%
+2/27/2025, 11:38:25 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 23%
+2/27/2025, 11:38:25 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 24%
+2/27/2025, 11:38:25 AM GMT-3 [Modules] Checking for host updates.
+2/27/2025, 11:38:25 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 25%
+2/27/2025, 11:38:25 AM GMT-3 [Modules] Starting to install discord_rpc...
+2/27/2025, 11:38:25 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 26%
+2/27/2025, 11:38:26 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 27%
+2/27/2025, 11:38:26 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 28%
+2/27/2025, 11:38:26 AM GMT-3 [Modules] Host is up to date.
+2/27/2025, 11:38:26 AM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2/27/2025, 11:38:26 AM GMT-3 [Modules] No module updates available.
+2/27/2025, 11:38:26 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 29%
+2/27/2025, 11:38:26 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 30%
+2/27/2025, 11:38:26 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 31%
+2/27/2025, 11:38:26 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 32%
+2/27/2025, 11:38:27 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 33%
+2/27/2025, 11:38:27 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 34%
+2/27/2025, 11:38:27 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 35%
+2/27/2025, 11:38:27 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 36%
+2/27/2025, 11:38:27 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 37%
+2/27/2025, 11:38:27 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 38%
+2/27/2025, 11:38:28 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 39%
+2/27/2025, 11:38:28 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 40%
+2/27/2025, 11:38:28 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 41%
+2/27/2025, 11:38:28 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 42%
+2/27/2025, 11:38:28 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 43%
+2/27/2025, 11:38:28 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 44%
+2/27/2025, 11:38:28 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 45%
+2/27/2025, 11:38:28 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 46%
+2/27/2025, 11:38:28 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 47%
+2/27/2025, 11:38:29 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 48%
+2/27/2025, 11:38:29 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 49%
+2/27/2025, 11:38:29 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 50%
+2/27/2025, 11:38:29 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 51%
+2/27/2025, 11:38:29 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 52%
+2/27/2025, 11:38:29 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 53%
+2/27/2025, 11:38:29 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 54%
+2/27/2025, 11:38:29 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 55%
+2/27/2025, 11:38:29 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 56%
+2/27/2025, 11:38:29 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 57%
+2/27/2025, 11:38:29 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 58%
+2/27/2025, 11:38:29 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 59%
+2/27/2025, 11:38:30 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 60%
+2/27/2025, 11:38:30 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 61%
+2/27/2025, 11:38:30 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 62%
+2/27/2025, 11:38:30 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 63%
+2/27/2025, 11:38:30 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 64%
+2/27/2025, 11:38:30 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 65%
+2/27/2025, 11:38:30 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 66%
+2/27/2025, 11:38:30 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 67%
+2/27/2025, 11:38:30 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 68%
+2/27/2025, 11:38:30 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 69%
+2/27/2025, 11:38:30 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 70%
+2/27/2025, 11:38:30 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 71%
+2/27/2025, 11:38:30 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 72%
+2/27/2025, 11:38:31 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 73%
+2/27/2025, 11:38:31 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 74%
+2/27/2025, 11:38:31 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 75%
+2/27/2025, 11:38:31 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 76%
+2/27/2025, 11:38:31 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 77%
+2/27/2025, 11:38:31 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 78%
+2/27/2025, 11:38:31 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 79%
+2/27/2025, 11:38:31 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 80%
+2/27/2025, 11:38:31 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 81%
+2/27/2025, 11:38:31 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 82%
+2/27/2025, 11:38:31 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 83%
+2/27/2025, 11:38:31 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 84%
+2/27/2025, 11:38:31 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 85%
+2/27/2025, 11:38:31 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 86%
+2/27/2025, 11:38:31 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 87%
+2/27/2025, 11:38:32 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 88%
+2/27/2025, 11:38:32 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 89%
+2/27/2025, 11:38:32 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 90%
+2/27/2025, 11:38:32 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 91%
+2/27/2025, 11:38:32 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 92%
+2/27/2025, 11:38:32 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 93%
+2/27/2025, 11:38:32 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 94%
+2/27/2025, 11:38:32 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 95%
+2/27/2025, 11:38:32 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 96%
+2/27/2025, 11:38:32 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 97%
+2/27/2025, 11:38:32 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 98%
+2/27/2025, 11:38:32 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 99%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_krisp@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip: 100%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Installing discord_krisp@1 from /home/tiago/.config/discord/0.0.87/modules/pending/discord_krisp-1.zip
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Finished module installations. [success: 1] [failure: 0]
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 1%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 2%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 3%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 4%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 5%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 6%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 7%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 8%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 9%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 10%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 11%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 12%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 13%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 14%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 15%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 16%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 17%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 18%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 19%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 20%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 21%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 22%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 23%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 24%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 25%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 26%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 27%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 28%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 29%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 30%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 31%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 32%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 33%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 34%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 35%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 36%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 37%
+2/27/2025, 11:38:33 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 38%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 39%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 40%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 41%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 42%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 43%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 44%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 45%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 46%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 47%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 48%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 49%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 50%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 51%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 52%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 53%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 54%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 55%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 56%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 57%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 58%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 59%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 60%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 61%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 62%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 63%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 64%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 65%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 66%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 67%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 68%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 69%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 70%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 71%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 72%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 73%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 74%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 75%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 76%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 77%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 78%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 79%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 80%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 81%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 82%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 83%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 84%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 85%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 86%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 87%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 88%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 89%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 90%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 91%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 92%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 93%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 94%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 95%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 96%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 97%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 98%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 99%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_game_utils@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip: 100%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_rpc@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_rpc-1.zip
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Installing discord_game_utils@1 from /home/tiago/.config/discord/0.0.87/modules/pending/discord_game_utils-1.zip
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Finished module installations. [success: 1] [failure: 0]
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_rpc@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_rpc-1.zip: 2%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_rpc@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_rpc-1.zip: 5%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_rpc@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_rpc-1.zip: 29%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_rpc@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_rpc-1.zip: 37%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_rpc@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_rpc-1.zip: 40%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_rpc@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_rpc-1.zip: 58%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_rpc@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_rpc-1.zip: 87%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Streaming discord_rpc@1 to /home/tiago/.config/discord/0.0.87/modules/pending/discord_rpc-1.zip: 100%
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Finished module downloads. [success: 3] [failure: 0]
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Installing discord_rpc@1 from /home/tiago/.config/discord/0.0.87/modules/pending/discord_rpc-1.zip
+2/27/2025, 11:38:34 AM GMT-3 [Modules] Finished module installations. [success: 1] [failure: 0]
+2/27/2025, 12:38:25 PM GMT-3 [Modules] Checking for host updates.
+2/27/2025, 12:38:25 PM GMT-3 [Modules] Host is up to date.
+2/27/2025, 12:38:25 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2/27/2025, 12:38:25 PM GMT-3 [Modules] No module updates available.
+2/27/2025, 1:38:25 PM GMT-3 [Modules] Checking for host updates.
+2/27/2025, 1:38:25 PM GMT-3 [Modules] Host is up to date.
+2/27/2025, 1:38:25 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2/27/2025, 1:38:25 PM GMT-3 [Modules] No module updates available.
+2/27/2025, 2:38:25 PM GMT-3 [Modules] Checking for host updates.
+2/27/2025, 2:38:25 PM GMT-3 [Modules] Host is up to date.
+2/27/2025, 2:38:25 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2/27/2025, 2:38:25 PM GMT-3 [Modules] No module updates available.
+2/27/2025, 3:38:25 PM GMT-3 [Modules] Checking for host updates.
+2/27/2025, 3:38:25 PM GMT-3 [Modules] Host is up to date.
+2/27/2025, 3:38:25 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2/27/2025, 3:38:25 PM GMT-3 [Modules] No module updates available.
+2/27/2025, 4:38:25 PM GMT-3 [Modules] Checking for host updates.
+2/27/2025, 4:38:25 PM GMT-3 [Modules] Host is up to date.
+2/27/2025, 4:38:25 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2/27/2025, 4:38:25 PM GMT-3 [Modules] No module updates available.
+2/27/2025, 5:38:25 PM GMT-3 [Modules] Checking for host updates.
+2/27/2025, 5:38:25 PM GMT-3 [Modules] Host is up to date.
+2/27/2025, 5:38:25 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2/27/2025, 5:38:25 PM GMT-3 [Modules] No module updates available.
+2/28/2025, 9:23:25 PM GMT-3 [Modules] Modules initializing
+2/28/2025, 9:23:25 PM GMT-3 [Modules] Distribution: remote
+2/28/2025, 9:23:25 PM GMT-3 [Modules] Host updates: enabled
+2/28/2025, 9:23:25 PM GMT-3 [Modules] Module updates: enabled
+2/28/2025, 9:23:25 PM GMT-3 [Modules] Module install path: /home/tiago/.config/discord/0.0.87/modules
+2/28/2025, 9:23:25 PM GMT-3 [Modules] Module installed file path: /home/tiago/.config/discord/0.0.87/modules/installed.json
+2/28/2025, 9:23:25 PM GMT-3 [Modules] Module download path: /home/tiago/.config/discord/0.0.87/modules/pending
+2/28/2025, 9:23:25 PM GMT-3 [Modules] No updates to install
+2/28/2025, 9:23:25 PM GMT-3 [Modules] Checking for host updates.
+2/28/2025, 9:23:26 PM GMT-3 [Modules] Host is up to date.
+2/28/2025, 9:23:26 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2/28/2025, 9:23:26 PM GMT-3 [Modules] No module updates available.
+2/28/2025, 9:23:30 PM GMT-3 [Modules] Checking for host updates.
+2/28/2025, 9:23:30 PM GMT-3 [Modules] Host is up to date.
+2/28/2025, 9:23:30 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2/28/2025, 9:23:30 PM GMT-3 [Modules] No module updates available.
+2/28/2025, 9:33:15 PM GMT-3 [Modules] Modules initializing
+2/28/2025, 9:33:15 PM GMT-3 [Modules] Distribution: remote
+2/28/2025, 9:33:15 PM GMT-3 [Modules] Host updates: enabled
+2/28/2025, 9:33:15 PM GMT-3 [Modules] Module updates: enabled
+2/28/2025, 9:33:15 PM GMT-3 [Modules] Module install path: /home/tiago/.config/discord/0.0.87/modules
+2/28/2025, 9:33:15 PM GMT-3 [Modules] Module installed file path: /home/tiago/.config/discord/0.0.87/modules/installed.json
+2/28/2025, 9:33:15 PM GMT-3 [Modules] Module download path: /home/tiago/.config/discord/0.0.87/modules/pending
+2/28/2025, 9:33:16 PM GMT-3 [Modules] No updates to install
+2/28/2025, 9:33:16 PM GMT-3 [Modules] Checking for host updates.
+2/28/2025, 9:33:16 PM GMT-3 [Modules] Host is up to date.
+2/28/2025, 9:33:16 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2/28/2025, 9:33:16 PM GMT-3 [Modules] No module updates available.
+2/28/2025, 9:33:20 PM GMT-3 [Modules] Checking for host updates.
+2/28/2025, 9:33:20 PM GMT-3 [Modules] Host is up to date.
+2/28/2025, 9:33:20 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2/28/2025, 9:33:20 PM GMT-3 [Modules] No module updates available.
+2/28/2025, 10:33:20 PM GMT-3 [Modules] Checking for host updates.
+2/28/2025, 10:33:20 PM GMT-3 [Modules] Host is up to date.
+2/28/2025, 10:33:20 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2/28/2025, 10:33:21 PM GMT-3 [Modules] No module updates available.
+2/28/2025, 11:33:20 PM GMT-3 [Modules] Checking for host updates.
+2/28/2025, 11:33:20 PM GMT-3 [Modules] Host is up to date.
+2/28/2025, 11:33:20 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2/28/2025, 11:33:20 PM GMT-3 [Modules] No module updates available.
+3/1/2025, 9:39:42 PM GMT-3 [Modules] Modules initializing
+3/1/2025, 9:39:42 PM GMT-3 [Modules] Distribution: remote
+3/1/2025, 9:39:42 PM GMT-3 [Modules] Host updates: enabled
+3/1/2025, 9:39:42 PM GMT-3 [Modules] Module updates: enabled
+3/1/2025, 9:39:42 PM GMT-3 [Modules] Module install path: /home/tiago/.config/discord/0.0.87/modules
+3/1/2025, 9:39:42 PM GMT-3 [Modules] Module installed file path: /home/tiago/.config/discord/0.0.87/modules/installed.json
+3/1/2025, 9:39:42 PM GMT-3 [Modules] Module download path: /home/tiago/.config/discord/0.0.87/modules/pending
+3/1/2025, 9:39:42 PM GMT-3 [Modules] No updates to install
+3/1/2025, 9:39:42 PM GMT-3 [Modules] Checking for host updates.
+3/1/2025, 9:39:43 PM GMT-3 [Modules] Host is up to date.
+3/1/2025, 9:39:43 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+3/1/2025, 9:39:43 PM GMT-3 [Modules] No module updates available.
+3/1/2025, 9:39:46 PM GMT-3 [Modules] Checking for host updates.
+3/1/2025, 9:39:46 PM GMT-3 [Modules] Host is up to date.
+3/1/2025, 9:39:46 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+3/1/2025, 9:39:46 PM GMT-3 [Modules] No module updates available.
+3/1/2025, 10:39:46 PM GMT-3 [Modules] Checking for host updates.
+3/1/2025, 10:39:46 PM GMT-3 [Modules] Host is up to date.
+3/1/2025, 10:39:46 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+3/1/2025, 10:39:46 PM GMT-3 [Modules] No module updates available.
+3/1/2025, 11:39:46 PM GMT-3 [Modules] Checking for host updates.
+3/1/2025, 11:39:46 PM GMT-3 [Modules] Host is up to date.
+3/1/2025, 11:39:46 PM GMT-3 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+3/1/2025, 11:39:46 PM GMT-3 [Modules] No module updates available.

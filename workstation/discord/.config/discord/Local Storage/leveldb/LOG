@@ -1,0 +1,25 @@
+2025/03/01-21:39:42.429 8da8 Reusing MANIFEST /home/tiago/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/03/01-21:39:42.444 8da8 Recovering log #17
+2025/03/01-21:39:42.444 8da8 Reusing old log /home/tiago/.config/discord/Local Storage/leveldb/000017.log 
+2025/03/01-21:44:27.157 8da9 Level-0 table #21: started
+2025/03/01-21:44:27.180 8da9 Level-0 table #21: 3465246 bytes OK
+2025/03/01-21:44:27.182 8da9 Delete type=0 #17
+2025/03/01-21:44:27.185 8da9 Compacting 4@0 + 1@1 files
+2025/03/01-21:44:27.204 8da9 Generated table #22@0: 5 keys, 2478091 bytes
+2025/03/01-21:44:27.229 8da9 Generated table #23@0: 28 keys, 985702 bytes
+2025/03/01-21:44:27.229 8da9 Compacted 4@0 + 1@1 files => 3463793 bytes
+2025/03/01-21:44:27.230 8da9 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/03/01-21:44:27.231 8da9 Delete type=2 #14
+2025/03/01-21:44:27.231 8da9 Delete type=2 #11
+2025/03/01-21:44:27.231 8da9 Delete type=2 #18
+2025/03/01-21:44:27.231 8da9 Delete type=2 #21
+2025/03/01-21:44:27.231 8da9 Delete type=2 #16
+2025/03/01-22:36:43.926 8da9 Level-0 table #25: started
+2025/03/01-22:36:43.928 8da9 Level-0 table #25: 16974 bytes OK
+2025/03/01-22:36:43.931 8da9 Delete type=0 #20
+2025/03/01-23:03:43.926 8da9 Level-0 table #27: started
+2025/03/01-23:03:43.928 8da9 Level-0 table #27: 10312 bytes OK
+2025/03/01-23:03:43.929 8da9 Delete type=0 #24
+2025/03/01-23:45:43.925 8da9 Level-0 table #29: started
+2025/03/01-23:45:43.930 8da9 Level-0 table #29: 16789 bytes OK
+2025/03/01-23:45:43.931 8da9 Delete type=0 #26
