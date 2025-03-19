@@ -90,6 +90,8 @@ alias wifi='/home/tiago/external/rofi-wifi-menu/rofi-wifi-menu.sh'
  alias ipv4="ip addr show | grep 'inet ' | grep -v '127.0.0.1' | cut -d' ' -f6 | cut -d/ -f1"
 alias ipv6="ip addr show | grep 'inet6 ' | cut -d ' ' -f6 | sed -n '2p'" 
 
+#nvim config
+alias jvim="NVIM_APPNAME=starter-kickstart nvim"
 # Created by `pipx` on 2024-12-09 22:52:18
 export PATH="$PATH:/home/tiago/.local/bin"
 
