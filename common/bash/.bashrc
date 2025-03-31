@@ -69,6 +69,11 @@ alias py='python3'
 alias yayupdate="yay -Syu --noconfirm"
 alias pkglist='pacman -Qs --color=always | less -R'
 
+#Redshift
+alias rsauto="redshift -l -34.5:-68.5 -o"   #Location of mendoza
+alias rsoff="redshift -l -34.5:-68.5 -x"
+alias rson="redshift -l -34.5:-68.5 -O 4500K"
+
 #Adding flags
 alias cp="cp -i"	#Confirm before overwrite
 alias df='df -h'	#Human readable format
