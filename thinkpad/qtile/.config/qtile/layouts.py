@@ -21,7 +21,7 @@ layouts = [
     # layout.MonadWide(**layout_theme),
     # layout.RatioTile(),
     # layout.Tile(),
-    # # layout.TreeTab(),
+    # layout.TreeTab(),
     # layout.VerticalTile(),
     # layout.Zoomy(**layout_theme),
 ]

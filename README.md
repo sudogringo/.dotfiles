@@ -37,6 +37,6 @@ stow files of specific machine by going to machine directory and stowing the fil
 1. write script to stow and restow automatically, depending on hostname
 2. modify rofi
 3. Move Wallpapers/ to different hosting site
-4. Fix qtile music bar. Prioritize last played item for interaccion, but spotify for display
+4. Compile list of requiered packages
 
 

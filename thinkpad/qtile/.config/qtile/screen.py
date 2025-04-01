@@ -107,30 +107,13 @@ screens = [
             widget.WindowName(
                 **widget_defaults,
                 mouse_callbacks={
-                    #"Button1":lazy.spawn("alacritty")
-                    },
+                    "Button1":lazy.spawn("rofi -show window")
+                },
             ),
             widget.CurrentLayoutIcon(
                 scale=0.8,
                 **widget_defaults,
             ),
-#            widget.Mpris2(
-#                **widget_defaults,
-#                no_metadata_text= "-Silence-",
-#                format = "{xesam:title} - ({xesam:artist})",
-#                playing_text = "{track}",
-#                paused_text  = "⏸ {track}",
-#                width = 200,
-#                scroll_delay = 5,
-#                scroll_interval = 0.25,
-#                decorations=[
-#                     BorderDecoration(
-#                         colour = colours[8],
-#                         border_width = [0, 0, underline, 0],
-#                     )
-#                 ],
-#                scroll_step = 15,
-#            ),
             ModdedBrightness(
                 **widget_defaults,
                 # format='{(percent*100):.0f}',
@@ -139,6 +122,10 @@ screens = [
                 backlight_name='intel_backlight',
                 brightness_file='actual_brightness',
                 width=widget_defaults["fontsize"] * 5,
+                mouse_callbacks={
+                    "Button1":lazy.spawn("rson"),
+                    "Button2":lazy.spawn("rsoff")
+                },
                 decorations=[
                      BorderDecoration(
                          colour = colours[9],
@@ -157,25 +144,9 @@ screens = [
                      )
                  ],
             ),
-            # widget.PulseVolume(
-            #     **widget_defaults,
-            #     emoji_list=['󰝟', '󰕿', '󰖀', '󰕾'],
-            #     emoji=False,
-            #     limit_max_volume=True,
-            #     mute_format='󰝟 Muted',
-            #     unmute_format='󰕾 {volume:>3.0f}%',
-            #     fmt = '{}',
-            #     width=widget_defaults["fontsize"] * 5,
-            #     decorations=[
-            #          BorderDecoration(
-            #              colour = colours[10],
-            #              border_width = [0, 0, underline, 0],
-            #          )
-            #      ],
-            # ),
             widget.KeyboardLayout(
                 **widget_defaults,
-                configured_keyboards=['es', 'us'],
+                configured_keyboards=['us', 'es'],
                 decorations=[
                      BorderDecoration(
                          colour = colours[11],

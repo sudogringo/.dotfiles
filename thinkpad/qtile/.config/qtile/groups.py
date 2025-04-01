@@ -13,7 +13,7 @@ group_labels = [f"{i}" for i in "12345"]
 group_labels = ["WWW", "DEV", "SYS", "BETA", "FUCK", "CHAT", "MUS", "VID", "GFX",]
 #group_labels = ["", "", "", "", "", "", "", "", "",]
 
-group_layouts = ["max", "stack", "monadtall", "tile", "matrix", "monadtall", "monadtall", "monadtall", "monadtall"]
+group_layouts = ["max", "max", "max", "max", "max", "monadtall", "monadtall", "monadtall", "monadtall"]
 
 # webMatch = [Match(wm_class=["firefox"])]
 

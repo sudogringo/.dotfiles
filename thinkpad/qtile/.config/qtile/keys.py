@@ -20,7 +20,9 @@ keys = [
     # Move windows between left/right columns or move up/down in current stack.
     # Moving out of range in Columns layout will create new column.
     Key([mod, "shift"], "h", lazy.layout.shuffle_left(), desc="Move window to the left"),
+    Key([mod, "shift"], "h", lazy.layout.client_to_previous(), desc="Move window to previous stack"),
     Key([mod, "shift"], "l", lazy.layout.shuffle_right(), desc="Move window to the right"),
+    Key([mod, "shift"], "l", lazy.layout.client_to_next(), desc="Move window to next stack"),
     Key([mod, "shift"], "j", lazy.layout.shuffle_down(), desc="Move window down"),
     Key([mod, "shift"], "k", lazy.layout.shuffle_up(), desc="Move window up"),
     # Grow windows. If current window is on the edge of screen and direction
@@ -35,8 +37,8 @@ keys = [
     # Unsplit = 1 window displayed, like Max layout, but still with
     # multiple stack panes
     Key(
-        [mod, "shift"],
-        "Return",
+        [mod, "control"],
+        "space",
         lazy.layout.toggle_split(),
         desc="Toggle between split and unsplit sides of stack",
     ),
