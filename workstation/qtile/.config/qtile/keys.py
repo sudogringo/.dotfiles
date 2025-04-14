@@ -20,7 +20,9 @@ keys = [
     # Move windows between left/right columns or move up/down in current stack.
     # Moving out of range in Columns layout will create new column.
     Key([mod, "shift"], "h", lazy.layout.shuffle_left(), desc="Move window to the left"),
+    Key([mod, "shift"], "h", lazy.layout.client_to_previous(), desc="Move window to previous stack"),
     Key([mod, "shift"], "l", lazy.layout.shuffle_right(), desc="Move window to the right"),
+    Key([mod, "shift"], "l", lazy.layout.client_to_next(), desc="Move window to next stack"),
     Key([mod, "shift"], "j", lazy.layout.shuffle_down(), desc="Move window down"),
     Key([mod, "shift"], "k", lazy.layout.shuffle_up(), desc="Move window up"),
     # Grow windows. If current window is on the edge of screen and direction
@@ -62,11 +64,7 @@ keys = [
 
     # Rofi launch
     Key([mod, "control"], "Return", lazy.spawn('rofi -show drun'), desc="Spawn a command using a prompt widget"),
-    
-    # Brightness controls
-    Key([], "XF86MonBrightnessUp", lazy.spawn("xbacklight +10"), desc="Raise Brightness"),
-    Key([], "XF86MonBrightnessDown", lazy.spawn("xbacklight -10"), desc="Lower Brightness"),
-    
+
     # Volume Controls
     Key([], "XF86AudioMicMute", lazy.spawn("pactl set-source-mute @DEFAULT_SOURCE@ toggle"), desc="Mute audio"),
     Key([], "XF86AudioMute", lazy.spawn("pactl set-sink-mute @DEFAULT_SINK@ toggle"), desc="Mute audio"),

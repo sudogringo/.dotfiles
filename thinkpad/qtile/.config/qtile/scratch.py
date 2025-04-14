@@ -7,7 +7,7 @@ from layouts import layout_theme
 
 dropdown_config = {
     'x': 0.10,
-    'y': 0.2,
+    'y': 0.1,
     'width': 0.8,
     'height': 0.8,
     'opacity': 0.95,

@@ -17,8 +17,8 @@ layouts = [
     layout.Max(**layout_theme),
     # Try more layouts by unleashing below layouts.
     layout.Stack(num_stacks=2, **layout_theme),
-    layout.Bsp(),
-    layout.Matrix(**layout_theme, columns=3),
+    # layout.Bsp(),
+    # layout.Matrix(**layout_theme, columns=3),
     # layout.MonadTall(**layout_theme),
     # layout.MonadWide(**layout_theme),
     # layout.RatioTile(),
