@@ -7,9 +7,9 @@ from layouts import layout_theme
 
 dropdown_config = {
     'x': 0.10,
-    'y': 0.1,
+    'y': 0.05,
     'width': 0.8,
-    'height': 0.8,
+    'height': 0.9,
     'opacity': 0.95,
     'on_focus_lost_hide': False
 }
