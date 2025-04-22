@@ -5,6 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 #export PATH=$PATH:~/.local/bin/oh-my-posh
+# export PATH=$PATH:/usr/lib/jvm/java-24-openjdk/bin
 
 #PS1='[\u@\h \W]\$ '
 _GREEN=$(tput setaf 2)
@@ -97,6 +98,10 @@ alias ipv6="ip addr show | grep 'inet6 ' | cut -d ' ' -f6 | sed -n '2p'"
 
 #nvim config
 alias jvim="NVIM_APPNAME=starter-kickstart nvim"
+
+# fzf
+export FZF_DEFAULT_COMMAND='fd . --hidden --exclude ".git, .cache"'
+
 # Created by `pipx` on 2024-12-09 22:52:18
 export PATH="$PATH:/home/tiago/.local/bin"
 
