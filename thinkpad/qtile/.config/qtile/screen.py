@@ -116,15 +116,14 @@ screens = [
             ),
             ModdedBrightness(
                 **widget_defaults,
-                # format='{(percent*100):.0f}',
                 format='{percent:3.0f}',
                 fmt = '󰃠  {}%',
                 backlight_name='intel_backlight',
                 brightness_file='actual_brightness',
                 width=widget_defaults["fontsize"] * 5,
                 mouse_callbacks={
-                    "Button1":lazy.spawn("rson"),
-                    "Button2":lazy.spawn("rsoff")
+                    "Button1":lazy.spawn("redshift -l -34.5:-68.5 -O 4500K"), # Redshift on
+                    "Button2":lazy.spawn("redshift -l -34.5:-68.5 -x") # Redshift off
                 },
                 decorations=[
                      BorderDecoration(
@@ -137,6 +136,9 @@ screens = [
                 **widget_defaults,
                 interface='wlp4s0',
                 format='{essid} {percent:2.0%}',
+                mouse_callbacks={
+                    "Button1": lazy.spawn("/home/tiago/external/rofi-wifi-menu/rofi-wifi-menu.sh", shell=True),
+                    },
                 decorations=[
                      BorderDecoration(
                          colour = colours[10],
@@ -193,6 +195,9 @@ screens = [
             widget.Battery(
                 **widget_defaults,
                 format='[{char}] {percent:2.0%}',
+                mouse_callbacks={
+                    "Button1":lazy.widget["battery"].force_update(),
+                    },
                 decorations=[
                      BorderDecoration(
                          colour = colours[14],
