@@ -112,10 +112,12 @@ export FZF_CTRL_T_OPTS="
   --bind 'ctrl-/:change-preview-window(down|hidden|)'"
 
 # ARandR
-alias monitor1='./home/tiago/.screenlayout/primary.sh'
-alias monitor2='./home/tiago/.screenlayout/projected.sh'
-alias monitor3='./home/tiago/.screenlayout/extended.sh'
-alias monitor4='./home/tiago/.screenlayout/mirror.sh'
+alias monitor1='/home/tiago/.screenlayout/primary.sh'
+alias monitor2='/home/tiago/.screenlayout/projected.sh'
+alias monitor3='/home/tiago/.screenlayout/mirror.sh'
+alias monitorUp='/home/tiago/.screenlayout/up.sh'
+alias monitorRight='/home/tiago/.screenlayout/right.sh'
+alias monitorLeft='/home/tiago/.screenlayout/left.sh'
 
 # Created by `pipx` on 2024-12-09 22:52:18
 export PATH="$PATH:/home/tiago/.local/bin"
