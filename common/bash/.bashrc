@@ -100,7 +100,16 @@ alias ipv6="ip addr show | grep 'inet6 ' | cut -d ' ' -f6 | sed -n '2p'"
 alias jvim="NVIM_APPNAME=starter-kickstart nvim"
 
 # fzf
+eval "$(fzf --bash)"
 export FZF_DEFAULT_COMMAND='fd . --hidden --exclude ".git, .cache"'
+export FZF_ALT_C_OPTS="
+  --walker-skip .cache,.local,.git,node_modules,target
+  --preview 'tree -C {}'"
+
+export FZF_CTRL_T_OPTS="
+  --walker-skip .cache,.local,.git,node_modules,target
+  --preview 'bat -n --color=always {}'
+  --bind 'ctrl-/:change-preview-window(down|hidden|)'"
 
 # ARandR
 alias monitor1='./home/tiago/.screenlayout/primary.sh'
