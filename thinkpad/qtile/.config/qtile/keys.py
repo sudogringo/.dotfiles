@@ -77,6 +77,7 @@ keys = [
 
     # Display controls
     Key([mod], "XF86Display", lazy.spawn("arandr"), desc="Start Arandr for GUI display control.",),
+    Key([], "XF86Display", lazy.spawn("/home/tiago/.dotfiles/common/.screenlayout/primary.sh"), desc="Activate primary display",),
     # want to add in the future auto switching of displays
 
     # Screenshot
