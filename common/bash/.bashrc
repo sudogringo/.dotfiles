@@ -4,8 +4,7 @@
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
-#export PATH=$PATH:~/.local/bin/oh-my-posh
-# export PATH=$PATH:/usr/lib/jvm/java-24-openjdk/bin
+#export PATH=$PATH:/usr/lib/jvm/java-24-openjdk/bin
 
 #PS1='[\u@\h \W]\$ '
 _GREEN=$(tput setaf 2)
@@ -49,6 +48,7 @@ alias okularhere='okular * & disown'
 cs_func() {
     builtin cd "$@" && ls -la
 }
+
 #New files
 alias new="/usr/bin/ls -lth | head -15"
 
@@ -93,7 +93,7 @@ alias emoji='rofi -modi emoji -show emoji -emoji-mode copy'
 alias wifi='/home/tiago/external/rofi-wifi-menu/rofi-wifi-menu.sh'
 
 # Networking
- alias ipv4="ip addr show | grep 'inet ' | grep -v '127.0.0.1' | cut -d' ' -f6 | cut -d/ -f1"
+alias ipv4="ip addr show | grep 'inet ' | grep -v '127.0.0.1' | cut -d' ' -f6 | cut -d/ -f1"
 alias ipv6="ip addr show | grep 'inet6 ' | cut -d ' ' -f6 | sed -n '2p'" 
 
 #nvim config
@@ -101,6 +101,12 @@ alias jvim="NVIM_APPNAME=starter-kickstart nvim"
 
 # fzf
 export FZF_DEFAULT_COMMAND='fd . --hidden --exclude ".git, .cache"'
+
+# ARandR
+alias monitor1='./home/tiago/.screenlayout/primary.sh'
+alias monitor2='./home/tiago/.screenlayout/projected.sh'
+alias monitor3='./home/tiago/.screenlayout/extended.sh'
+alias monitor4='./home/tiago/.screenlayout/mirror.sh'
 
 # Created by `pipx` on 2024-12-09 22:52:18
 export PATH="$PATH:/home/tiago/.local/bin"
