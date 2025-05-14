@@ -5,8 +5,9 @@ from colors import colours
 from keys import keys
 
 layout_theme = {
-        "border_width": 2,
-        "margin": 8,
+        "border_width": 1,
+        "gap": 8,
+        "margin": 4,
         "border_focus": colours[8],
         "border_normal": colours[0],
         }
