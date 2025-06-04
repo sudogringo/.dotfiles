@@ -119,6 +119,9 @@ alias monitorUp='/home/tiago/.screenlayout/up.sh'
 alias monitorRight='/home/tiago/.screenlayout/right.sh'
 alias monitorLeft='/home/tiago/.screenlayout/left.sh'
 
+# tmux
+alias asd='source $HOME/.dotfiles/common/.scripts/tmux-sessionizer.sh'
+
 # Created by `pipx` on 2024-12-09 22:52:18
 export PATH="$PATH:/home/tiago/.local/bin"
 
