@@ -25,10 +25,12 @@ Need to set up a list of the programs that I got listed in here.
 yay -S stow
 ```
 
+### Usage
+For common utilities
 ```
 git clone https://github.com/YankeeDeMierda/.dotfiles
 cd .dotfiles/common/
-stow --target=/home/$USER/ */ # Replace $USER with name of user
+stow --target=~/ * 
 ```
 
 stow files of specific machine by going to machine directory and stowing the files
