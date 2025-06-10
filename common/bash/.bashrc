@@ -140,3 +140,4 @@ else
     # Remove the flag file if it's not Thursday or Friday
     rm -f ~/.firstRun
 fi
+export PATH=$PATH:$HOME/go/bin

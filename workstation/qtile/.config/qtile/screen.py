@@ -94,7 +94,7 @@ screens = [
             widget.WindowName(
                 **widget_defaults,
                 mouse_callbacks={
-                    #"Button1":lazy.spawn("alacritty")
+                    "Button1":lazy.spawn("rofi -show window")
                     },
             ),
             widget.CurrentLayoutIcon(

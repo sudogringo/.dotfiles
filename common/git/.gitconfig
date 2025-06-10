@@ -1,9 +1,15 @@
 [user]
-	email = 16941297+YankeeDeMierda@users.noreply.github.com
-	name = Tiago CB
+	email = 215190927+sudogringo@users.noreply.github.com
+	name = Tiago Cunto
 [credential "https://github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
+[init]
+	defaultbranch = main
+[includeIf "gitdir/i:/home/tiago/Documents/UTN/"]
+    path = /home/tiago/Documents/UTN/.gitconfig
+[pull]
+	rebase = true
