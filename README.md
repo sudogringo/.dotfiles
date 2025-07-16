@@ -33,6 +33,11 @@ cd .dotfiles/common/
 stow --target=~/ * 
 ```
 
+```
+mkdir -p <target_path>
+stow --target=<target_path> path_of_new
+```
+
 stow files of specific machine by going to machine directory and stowing the files
 
 ## TODO

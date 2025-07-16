@@ -25,8 +25,17 @@ export TERM=xterm-256color
 source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash
 
+# script
+source ${HOME}/.scripts/wal-way.sh
+
+# pywal
+(cat ~/.cache/wal/sequences &)
+
+# To add support for TTYs this line can be optionally added.
+source ~/.cache/wal/colors-tty.sh
+
 #Aliases
-alias q='exit'
+# alias q='exit'
 alias c='clear'
 alias h='history'
 alias cl='clear;ls'
@@ -91,6 +100,7 @@ alias loadbash='source ~/.bashrc'
 # Rofi
 alias emoji='rofi -modi emoji -show emoji -emoji-mode copy'
 alias wifi='/home/tiago/external/rofi-wifi-menu/rofi-wifi-menu.sh'
+alias wall=${HOME}'/.scripts/rofi-pywall.sh'
 
 # Networking
 alias ipv4="ip addr show | grep 'inet ' | grep -v '127.0.0.1' | cut -d' ' -f6 | cut -d/ -f1"
@@ -120,7 +130,7 @@ alias monitorRight='/home/tiago/.screenlayout/right.sh'
 alias monitorLeft='/home/tiago/.screenlayout/left.sh'
 
 # tmux
-alias asd='source $HOME/.dotfiles/common/.scripts/tmux-sessionizer.sh'
+alias asd='source $HOME/.scripts/tmux-sessionizer.sh'
 
 # Created by `pipx` on 2024-12-09 22:52:18
 export PATH="$PATH:/home/tiago/.local/bin"
