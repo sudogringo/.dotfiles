@@ -49,7 +49,7 @@ has_session() {
 hydrate() {
     if [ -f "$2/.tmux-sessionizer" ]; then
         tmux send-keys -t "$1" "source $2/.tmux-sessionizer" c-M
-    elif [ -f "$HOME/.tmux-sessionizer" ]; then
+    elif [ -f "$HOME/.scripts/.tmux-sessionizer" ]; then
         tmux send-keys -t "$1" "source $HOME/.tmux-sessionizer" c-M
     fi
 }

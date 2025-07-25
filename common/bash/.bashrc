@@ -106,9 +106,6 @@ alias wall=${HOME}'/.scripts/rofi-pywall.sh'
 alias ipv4="ip addr show | grep 'inet ' | grep -v '127.0.0.1' | cut -d' ' -f6 | cut -d/ -f1"
 alias ipv6="ip addr show | grep 'inet6 ' | cut -d ' ' -f6 | sed -n '2p'" 
 
-#nvim config
-alias jvim="NVIM_APPNAME=starter-kickstart nvim"
-
 # fzf
 eval "$(fzf --bash)"
 export FZF_DEFAULT_COMMAND='fd . --hidden --exclude ".git, .cache"'
@@ -130,10 +127,10 @@ alias monitorRight='/home/tiago/.screenlayout/right.sh'
 alias monitorLeft='/home/tiago/.screenlayout/left.sh'
 
 # tmux
-alias asd='source $HOME/.scripts/tmux-sessionizer.sh'
+alias asd='$HOME/.scripts/tmux-sessionizer.sh'
+alias music='tmux new-session -A -s Music "ncspot"'
 
-# Created by `pipx` on 2024-12-09 22:52:18
-export PATH="$PATH:/home/tiago/.local/bin"
+export PATH=$PATH:$HOME/.local/bin
 
 # Script for Checking Discord and Steam
 # Check if the current day is Thursday, Friday, or Saturday
