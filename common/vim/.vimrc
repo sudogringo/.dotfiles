@@ -44,6 +44,9 @@ colorscheme everforest
 " Numberline Setting
 set relativenumber
 
+" Use 256 colors in terminal
+set t_Co=256
+
 " Syntax
 syntax on
 
@@ -84,6 +87,23 @@ set wildmenu
 
 set wildmode=list:longest
 
+" Set a leader key
+let mapleader = ' '
+
+" Allow backspacing over everything
+set backspace=indent,eol,start
+
+" Set the command line to a single line
+set cmdheight=1
+
+" Enable mouse support
+set mouse=a
+
+" Enable the omnicompletion popup menu
+set wildmenu
+
+" Add a short ruler at the bottom
+set ruler
 " VIMSCRIPT -------------------------------------------------------------- {{{
 
 " This will enable code folding.
