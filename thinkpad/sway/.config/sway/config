@@ -238,7 +238,7 @@ bindsym $mod+r mode "resize"
     # Title stuff to see when a progam is using xWayland
     for_window [shell="xwayland"] title_format "[XWayland] %title"
 
-    bindsym Mod4+o exec notify-send "mod key working"
+    # bindsym Mod4+o exec notify-send "mod key working"
     # bindsym m exec notify-send "mod key working"
 #
 # Status Bar:
