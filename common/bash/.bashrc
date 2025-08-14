@@ -21,7 +21,7 @@ export HISTCONTROL=ignoreboth	# ignore duplicate and commands that start with sp
 #Exports
 export EDITOR=vim
 export VISUAL=nvim
-export TERM=xterm-256color
+export TERM=screen-256color
 source /usr/share/fzf/key-bindings.bash
 source /usr/share/fzf/completion.bash
 
@@ -138,7 +138,7 @@ if [ "$(date +%u)" -eq 4 ] || [ "$(date +%u)" -eq 5 ] || [ "$(date +%u)" -eq 6 ]
     # Check if the flag file does not exist
     if [ ! -f ~/.firstRun ]; then
         # Run your script
-	~/.dotfiles/common/.scripts/weekendFun.sh
+	~/.dotfiles/common/Scripts/.scripts/weekendFun.sh
 
         # Create the flag file to indicate the script has run
         touch ~/.firstRun
