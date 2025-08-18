@@ -228,15 +228,25 @@ bindsym $mod+r mode "resize"
     # Special keys to adjust brightness via brightnessctl
     bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
-    # Special keys to play/pause music
-    bindsym XF86AudioPlay exec playerctl play-pause
-    bindsym XF86AudioNext exec playerctl next
-    bindsym XF86AudioPrev exec playerctl previous
     # Special key to take a screenshot with grim
     # bindsym Print exec grim
     bindsym Print exec snag --rofi --dir ~/Pictures/
     # Title stuff to see when a progam is using xWayland
     for_window [shell="xwayland"] title_format "[XWayland] %title"
+    # pop-up windows Use wlprop to find info
+    for_window [class="steam"] floating enable
+    for_window [app_id="blueman-manager"] {
+        floating enable,
+        move position center,
+        resize set 700 350
+    }
+    for_window [title="Pipewire Volume Control"] {
+        floating enable,
+        move position center,
+        resize set 700 350
+    }
+    for_window [window_role="pop-up"] floating enable
+    for_window [window_role="About"] floating enable
 
     # bindsym Mod4+o exec notify-send "mod key working"
     # bindsym m exec notify-send "mod key working"

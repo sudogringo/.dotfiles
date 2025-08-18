@@ -21,6 +21,7 @@
         "cpu",
         "memory",
         "network",
+        "battery",
         "clock"
     ],
     //Modules configuration
