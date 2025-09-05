@@ -230,7 +230,8 @@ bindsym $mod+r mode "resize"
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
     # Special key to take a screenshot with grim
     # bindsym Print exec grim
-    bindsym Print exec snag --rofi --dir ~/Pictures/
+    bindsym Print exec grim - | wl-copy && grim ~/Pictures/$(date +'%d_%m_%Y__%H_%M.png')
+    bindsym Shift+Print exec region=$(slurp) && grim -g "$region" - | wl-copy && grim -g "$region" ~/Pictures/$(date +'%d_%m_%Y__%H_%M.png')
     # Title stuff to see when a progam is using xWayland
     for_window [shell="xwayland"] title_format "[XWayland] %title"
     # pop-up windows Use wlprop to find info
