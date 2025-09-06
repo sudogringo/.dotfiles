@@ -5,15 +5,12 @@ Maintained in github, managing symlinks with GNU Stow
 ## Organization
 ```
 .dotfiles/
-    L common/
-    |   L program@root/
-    |   |   L programFile
-    |   L program/
-    |       L .config/
-    |           L program/
-    |               L programFiles
-    L thinkpad/
-    L workstation/
+   L program@root/
+   |   L programFile
+   L program/
+       L .config/
+           L program/
+               L programFiles
 ```
 
 ## Install
@@ -29,8 +26,8 @@ yay -S stow
 For common utilities
 ```
 git clone https://github.com/YankeeDeMierda/.dotfiles
-cd .dotfiles/common/
-stow --target=~/ * 
+cd .dotfiles
+stow <list of packages>
 ```
 
 ```
@@ -41,9 +38,5 @@ stow --target=<target_path> path_of_new
 stow files of specific machine by going to machine directory and stowing the files
 
 ## TODO
-1. write script to stow and restow automatically, depending on hostname
-2. modify rofi
-3. Move Wallpapers/ to different hosting site
-4. Compile list of requiered packages
-
+- [ ] bash script: stow basic files, verify stow install, grab backgrounds.
 
