@@ -39,3 +39,42 @@ ls -la
 ls .dotfiles/
 ls -la .dotfiles/
 ls -la
+tldr stow
+stow -v --delete .dotfiles/
+ls -la
+stow -v --delete .dotfiles/ -t ~
+stow -v --delete .dotfiles/ 
+stow -v --restow .dotfiles/ 
+stow -v --delete .dotfiles/ 
+tldr stow
+cd .dotfiles/
+ls
+lazygit
+lazygit
+ls
+ls -la
+lazygit
+ls -la
+ls .scripts/
+ls -la .scripts/
+rm -rf .scripts/
+stow -v -n alacritty/ bash/ git/ sway/ tmux/ waybar/
+stow -v alacritty/ bash/ git/ sway/ tmux/ waybar/
+exit
+ls
+ls -la
+rm -rf style.css modules.json config.jsonc config
+ls -la
+cd .dotfiles/
+ls
+cd sway/
+ls
+ls -la
+rm config 
+..
+cd waybar/
+ls
+ls -la
+rm config.jsonc modules.json style.css 
+..
+ls
