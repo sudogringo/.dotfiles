@@ -1,0 +1,10 @@
+configuration {
+  modes: [ combi ];
+  combi-modes: [ window, drun, run ];
+  show-icons: true;
+  show-thumbnails: true;
+}
+
+@theme "gruvbox-light"
+
+/* Insert theme modifications after this */

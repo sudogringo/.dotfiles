@@ -1,0 +1,13 @@
+use_nerdfont = true
+notify = true
+
+statusbar_format = "%title - %artists"
+
+[track_format]
+left = "%title"
+center = "%artists"
+right = "%saved %duration"
+
+[notification_format]
+title = "%title"
+body = "%artists"
