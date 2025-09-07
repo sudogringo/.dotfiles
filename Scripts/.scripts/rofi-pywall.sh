@@ -3,7 +3,7 @@
 
 source ${HOME}/.scripts/wal-way.sh
 
-WALLPAPERDIR=/home/tiago/.dotfiles/common/Wallpapers/Pictures/Wallpapers/
+WALLPAPERDIR=/home/tiago/Pictures/Wallpapers/
 
 if [ -z "$@" ]; then
     # Use Rofi to select a wallpaper
