@@ -4,7 +4,8 @@
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
-#export PATH=$PATH:/usr/lib/jvm/java-24-openjdk/bin
+# for jdtls
+export JAVA_HOME="/usr/lib/jvm/java-21-openjdk"
 
 #PS1='[\u@\h \W]\$ '
 _GREEN=$(tput setaf 2)
@@ -128,6 +129,7 @@ alias monitorLeft='/home/tiago/.screenlayout/left.sh'
 
 # tmux
 alias asd='$HOME/.scripts/tmux-sessionizer.sh'
+alias tn='$HOME/.scripts/tmux-commandiner.sh'
 alias music='tmux new-session -A -s Music "ncspot"'
 
 export PATH=$PATH:$HOME/.local/bin
