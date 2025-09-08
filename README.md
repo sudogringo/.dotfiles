@@ -12,6 +12,10 @@ Maintained in github, managing symlinks with GNU Stow
            L program/
                L programFiles
 ```
+Keeping 3 branches. 
+- Main, keeps the common files.
+- Workstation, for the desktop stuff. Typically more caotic since its where i test new things out
+- Thinkpad, changes more for UI stuff.
 
 ## Install
 
@@ -34,9 +38,3 @@ stow <list of packages>
 mkdir -p <target_path>
 stow --target=<target_path> path_of_new
 ```
-
-stow files of specific machine by going to machine directory and stowing the files
-
-## TODO
-- [ ] bash script: stow basic files, verify stow install, grab backgrounds.
-
