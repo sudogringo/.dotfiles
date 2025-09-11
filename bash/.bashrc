@@ -94,8 +94,8 @@ alias shtdwn="sudo shutdown now"
 alias rbt="sudo reboot"
 
 # Shortcuts to vimrc and bashrc
-alias vimrc='nvim ~/.dotfiles/common/vim/.vimrc'
-alias bashrc='nvim ~/.dotfiles/common/bash/.bashrc'
+alias vimrc='nvim ~/.vimrc'
+alias bashrc='nvim ~/.bashrc'
 alias loadbash='source ~/.bashrc'
 
 # Rofi
@@ -120,12 +120,12 @@ export FZF_CTRL_T_OPTS="
   --bind 'ctrl-/:change-preview-window(down|hidden|)'"
 
 # ARandR
-alias monitor1='/home/tiago/.screenlayout/primary.sh'
-alias monitor2='/home/tiago/.screenlayout/projected.sh'
-alias monitor3='/home/tiago/.screenlayout/mirror.sh'
-alias monitorUp='/home/tiago/.screenlayout/up.sh'
-alias monitorRight='/home/tiago/.screenlayout/right.sh'
-alias monitorLeft='/home/tiago/.screenlayout/left.sh'
+alias monitor1='$HOME/.screenlayout/primary.sh'
+alias monitor2='$HOME/tiago/.screenlayout/projected.sh'
+alias monitor3='$HOME/tiago/.screenlayout/mirror.sh'
+alias monitorUp='$HOME/tiago/.screenlayout/up.sh'
+alias monitorRight='$HOME/tiago/.screenlayout/right.sh'
+alias monitorLeft='$HOME/tiago/.screenlayout/left.sh'
 
 # tmux
 alias asd='$HOME/.scripts/tmux-sessionizer.sh'
@@ -140,7 +140,7 @@ if [ "$(date +%u)" -eq 4 ] || [ "$(date +%u)" -eq 5 ] || [ "$(date +%u)" -eq 6 ]
     # Check if the flag file does not exist
     if [ ! -f ~/.firstRun ]; then
         # Run your script
-	~/.dotfiles/common/Scripts/.scripts/weekendFun.sh
+	~/.dotfiles/Scripts/.scripts/weekendFun.sh
 
         # Create the flag file to indicate the script has run
         touch ~/.firstRun
