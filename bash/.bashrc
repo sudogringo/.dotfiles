@@ -100,12 +100,13 @@ alias loadbash='source ~/.bashrc'
 
 # Rofi
 alias emoji='rofi -modi emoji -show emoji -emoji-mode copy'
-alias wifi='/home/tiago/external/rofi-wifi-menu/rofi-wifi-menu.sh'
+alias wifi=${HOME}'/.scripts/rofi-wifi-menu.sh'
 alias wall=${HOME}'/.scripts/rofi-pywall.sh'
 
 # Networking
 alias ipv4="ip addr show | grep 'inet ' | grep -v '127.0.0.1' | cut -d' ' -f6 | cut -d/ -f1"
 alias ipv6="ip addr show | grep 'inet6 ' | cut -d ' ' -f6 | sed -n '2p'" 
+alias wake="wol dc:0e:a1:8a:32:da"
 
 # fzf
 eval "$(fzf --bash)"
