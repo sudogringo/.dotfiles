@@ -132,6 +132,8 @@ alias monitorLeft='$HOME/tiago/.screenlayout/left.sh'
 alias asd='$HOME/.scripts/tmux-sessionizer.sh'
 alias tn='$HOME/.scripts/tmux-commandiner.sh'
 alias music='tmux new-session -A -s Music "ncspot"'
+alias devme='$HOME/.scripts/dev_sesh.sh'
+alias dev='$HOME/.scripts/tmux-dev.sh'
 
 export PATH=$PATH:$HOME/.local/bin
 
