@@ -112,11 +112,11 @@ alias wake="wol dc:0e:a1:8a:32:da"
 eval "$(fzf --bash)"
 export FZF_DEFAULT_COMMAND='fd . --hidden --exclude ".git, .cache"'
 export FZF_ALT_C_OPTS="
-  --walker-skip .cache,.local,.git,node_modules,target
+  --walker-skip .cache,.local,.git,.wine,.cargo,node_modules,target
   --preview 'tree -C {}'"
 
 export FZF_CTRL_T_OPTS="
-  --walker-skip .cache,.local,.git,node_modules,target
+  --walker-skip .cache,.local,.git,.wine,.cargo,node_modules,target
   --preview 'bat -n --color=always {}'
   --bind 'ctrl-/:change-preview-window(down|hidden|)'"
 
@@ -153,3 +153,6 @@ else
     rm -f ~/.firstRun
 fi
 export PATH=$PATH:$HOME/go/bin
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"

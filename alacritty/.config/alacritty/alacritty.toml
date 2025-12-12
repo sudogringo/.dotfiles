@@ -12,7 +12,7 @@ dynamic_padding = true
 # normal = { family = "Hasklug Nerd Font", style = "Regular" }
 # normal = { family = "TerminessNerdFontMono", style = "Regular" }
 normal = { family = "UbuntuMono", style = "Regular" }
-size = 12
+size = 16
 offset = {x = 0, y = 0}
 
 [general]
