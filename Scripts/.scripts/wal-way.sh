@@ -2,6 +2,6 @@
 
 # Wal config for wayland
 wal-way() {
-    wal -n -i "$@"
+    wal --backend colorz -n --cols16 -q -i "$@"
     swww img "$(< "${HOME}/.cache/wal/wal")" --transition-type center
 }
