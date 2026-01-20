@@ -3,6 +3,8 @@ configuration {
   combi-modes: [ window, drun, run ];
   show-icons: true;
   show-thumbnails: true;
+  font: "ububuntu 16";
+  vertical-align: 0.5;
 }
 @theme "~/.config/rofi/base16-theme.rasi"
 @theme "gruvbox-light"
