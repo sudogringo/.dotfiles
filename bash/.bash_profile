@@ -124,6 +124,7 @@ export VISUAL='nvim'
 export TERM='screen-256color'
 export JAVA_HOME="/usr/lib/jvm/java-21-openjdk"
 export PYENV_ROOT="$HOME/.pyenv"
+export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
 
 # --- PATH Construction ---
 _add_to_path() {
