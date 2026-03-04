@@ -1,5 +1,11 @@
 #
-# ~/.bash_profile
+# ,,                ,,                              /\    ,,       
+# ||      _         ||                             ||   ' ||       
+# ||/|,  < \,  _-_, ||/\\       -_-_  ,._-_  /'\\ =||= \\ ||  _-_  
+# || ||  /-|| ||_.  || ||       || \\  ||   || ||  ||  || || || \\ 
+# || |' (( ||  ~ || || ||       || ||  ||   || ||  ||  || || ||/   
+# \\/    \/\\ ,-_-  \\ |/       ||-'   \\,  \\,/   \\, \\ \\ \\,/  
+#                     _/  _____ |/                                 
 #
 
 # --- XDG Base Directory Specification ---
@@ -17,7 +23,6 @@ export GOPATH="$XDG_DATA_HOME/go"
 # Python (Clean up the REPL history)
 # Note: You need to create this file for it to work: mkdir -p ~/.config/python && touch ~/.config/python/pythonrc
 export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/pythonrc"
-[ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
 
 # Less history
 export LESSHISTFILE="$XDG_STATE_HOME/less/history"
@@ -75,12 +80,3 @@ esac
 
 # Load interactive settings
 [[ -f ~/.bashrc ]] && . ~/.bashrc
-if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
-  exec startx
-fi
-#if [ -f /etc/bash_completion ]; then
-#    . /etc/bash_completion
-#fi
-
-# Created by `pipx` on 2024-12-09 22:52:18
-export PATH="$PATH:/home/tiago/.local/bin"
