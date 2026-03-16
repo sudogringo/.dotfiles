@@ -44,7 +44,10 @@ set $wierdmenu wmenu-run
 exec awww-daemon > /dev/null 2>&1
 # Start playerctld daemon
 exec playerctld daemon > /dev/null 2>&1
+# Start GammaStep
+exec gammastep > /dev/null 2>&1
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
+output eDP-1 resolution 1920x1080 position 1920,0
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 client.focused $color0 $background $foreground $color7 $background
 # border - title
