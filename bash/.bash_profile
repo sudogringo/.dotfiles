@@ -41,7 +41,7 @@ export XDG_SESSION_TYPE=wayland
 # --- Environment Variables ---
 export EDITOR='vim'
 export VISUAL='nvim'
-export TERM='screen-256color'
+# export TERM='screen-256color'
 export JAVA_HOME="/usr/lib/jvm/java-21-openjdk"
 export PYENV_ROOT="$HOME/.pyenv"
 

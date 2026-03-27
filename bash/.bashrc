@@ -60,6 +60,7 @@ if command -v pyenv >/dev/null; then
     eval "$(pyenv init -)"
 fi
 
+
 # --- Aliases ---
 alias c='clear'
 alias h='history'
@@ -126,3 +127,14 @@ alias rsoff="redshift -l -34.5:-68.5 -x"
 alias rson="redshift -l -34.5:-68.5 -O 4500K"
 alias shtdwn="sudo shutdown now"
 alias rbt="sudo reboot"
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+if [ -f "/opt/miniconda3/etc/profile.d/conda.sh" ]; then
+    . "/opt/miniconda3/etc/profile.d/conda.sh"
+else
+    export PATH="/opt/miniconda3/bin:$PATH"
+fi
+# <<< conda initialize <<<
+
