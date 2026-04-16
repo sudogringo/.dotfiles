@@ -102,7 +102,7 @@
 	"tooltip": true
     },
     "sway/language": {
-        "format": "{short}",
+        "format": "{short}"
     },
     "battery": {
         "states": {
@@ -136,7 +136,6 @@
                 "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
                 "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
             }
-        },
-    },
-
+        }
+    }
 }

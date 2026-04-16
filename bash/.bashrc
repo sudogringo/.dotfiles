@@ -126,3 +126,6 @@ alias rsoff="redshift -l -34.5:-68.5 -x"
 alias rson="redshift -l -34.5:-68.5 -O 4500K"
 alias shtdwn="sudo shutdown now"
 alias rbt="sudo reboot"
+
+# Prevent gentle-ai from self-updating (OPSX fork)
+export GENTLE_AI_NO_SELF_UPDATE=1
