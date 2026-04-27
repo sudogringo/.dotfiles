@@ -23,18 +23,18 @@ tmux new-session -d -s $SESSION_NAME -c $CWD
 tmux rename-window -t $SESSION_NAME:1 "nvim"
 tmux send-keys -t $SESSION_NAME:nvim "nvim" C-m
 
-# 2. Window 2: GeminiCLI
-tmux new-window -t $SESSION_NAME:2 -c $CWD -n "gemini"
-tmux send-keys -t $SESSION_NAME:gemini "gemini" C-m
+# 2. Window 2: Ai Coding CLI
+tmux new-window -t $SESSION_NAME:2 -c $CWD -n "Clanka"
+tmux send-keys -t $SESSION_NAME:2 "opencode" C-m
 
 # 3. Window 3: Lazygit (or just 'git')
 tmux new-window -t $SESSION_NAME:3 -c $CWD -n "git"
-tmux send-keys -t $SESSION_NAME:git "lazygit" C-m
+tmux send-keys -t $SESSION_NAME:3 "lazygit" C-m
 
 # 4. Window 4: Shell (General tasks)
 tmux new-window -t $SESSION_NAME:4 -c $CWD -n "shell"
 
 # --- Attach to the session and select the Nvim window ---
 echo "Attaching to session '$SESSION_NAME'. Focus is on the nvim window."
-tmux select-window -t $SESSION_NAME:nvim
+tmux select-window -t $SESSION_NAME:1
 tmux attach-session -t $SESSION_NAME
