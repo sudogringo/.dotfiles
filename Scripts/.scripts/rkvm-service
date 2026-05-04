@@ -1,0 +1,21 @@
+#!/bin/bash
+# Goes in /etc/NetworkManager/dispatcher.d/
+# chmod and root owner
+# NetworkManager passes the interface name ($1) and the action ($2)
+INTERFACE=$1
+ACTION=$2
+
+# Check if the connection being toggled is the specific one you want
+if [[ "$CONNECTION_ID" = "Malena_5G" || "$CONNECTION_ID" = "Malena" ]]; then
+
+    case "$ACTION" in
+        up)
+            # Start your daemon/service when connecting
+            /usr/bin/systemctl start rkvm-client.service
+            ;;
+        down)
+            # Stop your daemon/service when disconnecting
+            /usr/bin/systemctl stop rkvm-client.service
+            ;;
+    esac
+fi
