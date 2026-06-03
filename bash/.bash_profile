@@ -39,7 +39,7 @@ export XDG_CURRENT_DESKTOP=sway
 export XDG_SESSION_TYPE=wayland
 
 # --- Environment Variables ---
-export EDITOR='vim'
+export EDITOR='nvim'
 export VISUAL='nvim'
 # export TERM='screen-256color'
 export JAVA_HOME="/usr/lib/jvm/java-21-openjdk"
@@ -81,3 +81,7 @@ esac
 # Load interactive settings
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 . "/home/tiago/.local/share/bob/env/env.sh"
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/tiago/.local/bin:$PATH"

@@ -20,13 +20,9 @@ live_config_reload = true
 #Alacritty Config for Yankee
 
 import = [
-    "~/.config/alacritty/colors.toml"
+#"~/.config/alacritty/nightfox.toml",
+"~/.config/alacritty/everforest_dark.toml"
 ]
 
 [mouse]
 hide_when_typing = true
-
-[[keyboard.bindings]]
-key = "Return"
-mods = "Shift"
-chars = "\u001B\r"

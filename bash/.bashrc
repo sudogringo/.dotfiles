@@ -138,3 +138,7 @@ else
 fi
 # <<< conda initialize <<<
 
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/tiago/.local/bin:$PATH"
