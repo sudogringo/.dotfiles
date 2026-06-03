@@ -31,6 +31,8 @@ mkdir -p "$(dirname "$LESSHISTFILE")"
 
 # Node/NPM
 export NODE_REPL_HISTORY="$XDG_DATA_HOME/node_repl_history"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 # export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc" # Uncomment if you move your npmrc
 
 # --- Wayland / Sway Specifics ---
