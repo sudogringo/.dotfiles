@@ -25,7 +25,7 @@ tmux send-keys -t $SESSION_NAME:nvim "nvim" C-m
 
 # 2. Window 2: Ai Coding CLI
 tmux new-window -t $SESSION_NAME:2 -c $CWD -n "Clanka"
-tmux send-keys -t $SESSION_NAME:2 "opencode" C-m
+tmux send-keys -t $SESSION_NAME:2 "claude" C-m
 
 # 3. Window 3: Lazygit (or just 'git')
 tmux new-window -t $SESSION_NAME:3 -c $CWD -n "git"
