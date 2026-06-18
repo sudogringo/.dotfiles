@@ -59,18 +59,16 @@ eval "$(zoxide init zsh)"
 NEWLINE=$'\n'
 _vim_mode_indicator() {
     if [[ $KEYMAP == vicmd ]]; then
-        echo "%F{#4c566a}[N]%f"
+        echo "%F{19}[N]%f"
     else
-        echo "%F{#EBCB8B}[I]%f"
+        echo "%F{3}[I]%f"
     fi
 }
 zle-keymap-select() { zle reset-prompt }
 zle-line-init() { zle reset-prompt }
 zle -N zle-keymap-select
 zle -N zle-line-init
-PROMPT="%K{#3b4252}%F{#ECEFF4} %n %K{#4c566a} %1~ %f%k \$(_vim_mode_indicator) ❯ " # nord theme
-# PROMPT="${NEWLINE}%K{#32302f}%F{#d5c4a1} $0 %K{#3c3836}%F{#d5c4a1} %n %K{#504945} %~ %f%k ❯ " # warmer theme
-# PROMPT="${NEWLINE}%K{$COL0}%F{$COL1}$(date +%_I:%M%P) %K{$COL0}%F{$COL2} %n %K{$COL3} %~ %f%k ❯ " # pywal colors, from postrun script
+PROMPT="%K{18}%F{7} %n %K{19} %1~ %f%k \$(_vim_mode_indicator) ❯ "
 
 # fzf-tab (must be sourced before autosuggestions and syntax-highlighting)
 # requires fzf-tab
