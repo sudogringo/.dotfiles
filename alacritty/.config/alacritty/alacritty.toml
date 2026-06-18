@@ -20,8 +20,7 @@ live_config_reload = true
 #Alacritty Config for Yankee
 
 import = [
-#"~/.config/alacritty/nightfox.toml",
-"~/.config/alacritty/everforest_dark.toml"
+    "~/.config/alacritty/colors.toml"
 ]
 
 [mouse]

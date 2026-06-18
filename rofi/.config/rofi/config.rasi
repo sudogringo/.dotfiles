@@ -4,7 +4,7 @@ configuration {
   show-icons: true;
   show-thumbnails: true;
 }
-
+@theme "~/.config/rofi/base16-theme.rasi"
 @theme "gruvbox-light"
 
 /* Insert theme modifications after this */

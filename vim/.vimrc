@@ -14,29 +14,25 @@
 filetype on
 filetype indent on
 
-" EVERFOREST THEME ---------------------------------------------------- {{{
-packadd! everforest
+" TINTED THEME ---------------------------------------------------- {{{
+let g:theme_script_path = expand('~/.local/share/tinted-theming/tinty/base16-vim-colors-file.vim')
 
-" Important!!
-if has('termguicolors')
-set termguicolors
+function! FileExists(file_path)
+  return filereadable(a:file_path) == 1
+endfunction
+
+function! HandleFocusGained()
+  if FileExists(g:theme_script_path)
+    execute 'source ' . g:theme_script_path
+  endif
+endfunction
+
+if FileExists(g:theme_script_path)
+  set termguicolors
+  let g:tinted_colorspace = 256
+  execute 'source ' . g:theme_script_path
+  autocmd FocusGained * call HandleFocusGained()
 endif
-
-" For dark version.
-set background=dark
-
-" For light version.
-"set background=light
-
-" Set contrast.
-" This configuration option should be placed before `colorscheme everforest`.
-" Available values: 'hard', 'medium'(default), 'soft'
-let g:everforest_background = 'hard'
-
-" For better performance
-let g:everforest_better_performance = 1
-
-colorscheme everforest
 
 " }}}
 
