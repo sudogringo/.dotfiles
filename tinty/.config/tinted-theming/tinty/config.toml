@@ -1,26 +1,15 @@
-# Configuration for Tinty
-# https://github.com/tinted-theming/tinty
-#
-# This file is optional, but there is limited tinty functionality
-# without customization of this config.toml
-#
-# This file should contain a `[[items]]` section for each application
-# you want themed. You can also set a `shell` value which is used in
-# Tinty when running shell commands. `shell` is also used when executing
-# `hook`s provided in this config file Check tinty repository for more
-# information and examples.
+shell = "zsh -c '{}'"
+default-scheme = "base16-tender"
+default-cycle-ring = "default"
 
+[[rings]]
+name = "default"
+schemes = ["base16-woodland", "base16-gruvbox-dark-medium", "base16-github"]
 
-# Explanation and default values for keys:
+[[rings]]
+name = "cool"
+schemes = ["base16-woodland", "base24-one-black", "base24-earthsong", "base16-gruvbox-dark-medium", "base16-github"]
 
-# # Through which shell command hooks will run. The command will be replaced in '{}'
-# shell = "sh -c '{}'"
-# # Default scheme to apply if a previously set scheme doesn't exist.
-# # Used specifically in the `tinty init` subcommand.
-# default-scheme = "base16-mocha"
-# # Default ring to use when running `tinty cycle` without `--ring`.
-# default-cycle-ring = "default"
-#
 [[rings]]
 name = "base"
 schemes = ["base16-mocha", "base16-gruvbox-dark"]
@@ -29,49 +18,26 @@ schemes = ["base16-mocha", "base16-gruvbox-dark"]
 name = "light"
 schemes = ["base16-gruvbox-light", "base16-github"]
 
-# [[items]]
-# # Path to template repository. Can be a URL, absolute path or path
-# # beginning with `~/`.
-# path = "https://github.com/tinted-theming/tinted-shell"
-# # Unique name of item
-# name = "tinted-shell"
-# # Name of the repository directory containing the theme files
-# themes-dir = "scripts"
-# # (Optional) Command to execute after copying template (goes through `shell`)
-# hook = ""
-# # (Optional) supported scheme system of template. Some templates
-# # could support multiple scheme systems.
-# supported-systems = ["base16", "base24"]
-
-
-# Example file. For shell, tmux, fzf, waybar and sway. Runs hooks
-# through zsh:
-
-shell = "zsh -c '{}'"
-default-scheme = "base16-oceanicnext"
-default-cycle-ring = "default"
-
-[[rings]]
-name = "default"
-schemes = ["base16-oceanicnext", "base16-gruvbox-dark", "base16-github-dark"]
-
 [[items]]
 path = "https://github.com/tinted-theming/tinted-shell"
 name = "tinted-shell"
 hook = ". %f"
 themes-dir = "scripts"
+supported-systems = ["base16", "base24"]
 
 [[items]]
 path = "https://github.com/tinted-theming/base16-tmux"
 name = "base16-tmux"
 themes-dir = "colors"
 hook = "test -n \"$TMUX\" && tmux source-file %f"
+supported-systems = ["base16", "base24"]
 
 [[items]]
 path = "https://github.com/tinted-theming/base16-fzf"
 name = "fzf"
 themes-dir = "bash"
 hook = ". %f"
+supported-systems = ["base16", "base24"]
 
 [[items]]
 path = "https://github.com/tinted-theming/base16-waybar"

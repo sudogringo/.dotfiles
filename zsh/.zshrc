@@ -88,6 +88,9 @@ source "${HOME}/.scripts/wal-way.sh"
 (cat ~/.cache/wal/sequences &)
 source ~/.cache/wal/colors-tty.sh
 
+# tinty
+tinty init &>/dev/null
+
 # fzf
 export FZF_DEFAULT_COMMAND='fd . --hidden --exclude ".git" --exclude ".cache"'
 export FZF_ALT_C_OPTS="
