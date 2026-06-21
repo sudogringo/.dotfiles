@@ -56,6 +56,7 @@ path=(
     /usr/local/sbin
     /usr/sbin
     /sbin
+    $HOME/.local/share/bob/nvim-bin
     $HOME/.local/bin        # pipx, uv tools, user installs
     $PNPM_HOME              # pnpm global bins
     $XDG_DATA_HOME/npm/bin  # npm global bins (locked prefix)
