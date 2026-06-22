@@ -89,7 +89,7 @@ source "${HOME}/.scripts/wal-way.sh"
 source ~/.cache/wal/colors-tty.sh
 
 # tinty
-tinty init &>/dev/null
+[[ -z "$TINTY_INITIALIZED" ]] && tinty init &>/dev/null && export TINTY_INITIALIZED=1
 
 # fzf
 export FZF_DEFAULT_COMMAND='fd . --hidden --exclude ".git" --exclude ".cache"'
