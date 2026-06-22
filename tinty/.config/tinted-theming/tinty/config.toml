@@ -62,7 +62,7 @@ path = "https://github.com/rkubosz/base16-sway"
 name = "base16-sway"
 revision = "master"
 themes-dir = "themes"
-hook = "cat %f > ~/.config/sway/colors && swaymsg reload"
+hook = "if ! diff -q %f ~/.config/sway/colors > /dev/null 2>&1; then cat %f > ~/.config/sway/colors && swaymsg reload; fi"
 
 [[items]]
 name = "tinted-alacritty"
