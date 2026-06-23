@@ -5,3 +5,7 @@ common/ncspot/.config/ncspot/userstate.cbor
 workstation/qtile/.config/qtile/__pycache__
 common/ncspot/.config/ncspot/userstate.cbor
 bash/.bash_history
+alacritty/.config/alacritty/colors.toml
+rofi/.config/rofi/base16-theme.rasi
+sway/.config/sway/colors
+waybar/.config/waybar/colors.css

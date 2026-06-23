@@ -14,6 +14,9 @@
 filetype on
 filetype indent on
 
+" Syntax
+syntax on
+
 " TINTED THEME ---------------------------------------------------- {{{
 let g:theme_script_path = expand('~/.local/share/tinted-theming/tinty/base16-vim-colors-file.vim')
 
@@ -42,9 +45,6 @@ set relativenumber
 
 " Use 256 colors in terminal
 set t_Co=256
-
-" Syntax
-syntax on
 
 " Cursor Settings
 set cursorline
