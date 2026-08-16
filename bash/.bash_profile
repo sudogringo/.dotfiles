@@ -164,3 +164,4 @@ esac
 # Load interactive settings
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 . "/home/tiago/.local/share/bob/env/env.sh"
+. "/home/tiago/.local/share/bob/env/env.sh"

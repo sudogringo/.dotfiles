@@ -76,6 +76,6 @@
   "alwaysThinkingEnabled": false,
   "effortLevel": "medium",
   "awaySummaryEnabled": false,
-  "theme": "dark",
+  "theme": "auto",
   "editorMode": "vim"
 }

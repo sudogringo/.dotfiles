@@ -9,3 +9,20 @@ alacritty/.config/alacritty/colors.toml
 rofi/.config/rofi/base16-theme.rasi
 sway/.config/sway/colors
 waybar/.config/waybar/colors.css
+
+# Claude Code runtime state (not config)
+claude/.claude/.credentials.json
+claude/.claude/.last-cleanup
+claude/.claude/backups/
+claude/.claude/cache/
+claude/.claude/context-mode/
+claude/.claude/file-history/
+claude/.claude/history.jsonl
+claude/.claude/hooks/
+claude/.claude/mcp-needs-auth-cache.json
+claude/.claude/plans/
+claude/.claude/plugins/
+claude/.claude/projects/
+claude/.claude/sessions/
+claude/.claude/shell-snapshots/
+claude/.claude/themes/
